@@ -100,22 +100,55 @@ const InstallPrompt: React.FC = () => {
   }
 
   if (showManualInstructions) {
+    const isBrave = navigator.userAgent.includes('Brave');
+    const isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
     return (
       <div className="install-prompt position-fixed bottom-0 start-0 end-0 p-3 bg-dark text-light">
         <Alert variant="info" className="mb-3">
-          <h6 className="mb-2">📱 Install on Android</h6>
-          <ol className="mb-0 small">
-            <li>
-              Tap the <strong>three dots menu</strong> (⋮) in your browser
-            </li>
-            <li>
-              Select <strong>"Add to Home screen"</strong> or{' '}
-              <strong>"Install app"</strong>
-            </li>
-            <li>
-              Tap <strong>"Add"</strong> to confirm
-            </li>
-          </ol>
+          <h6 className="mb-2">
+            {isBrave ? '🦁 Install in Brave Browser' : isMobile ? '📱 Install on Mobile' : '💻 Install on Desktop'}
+          </h6>
+          {isBrave ? (
+            <ol className="mb-0 small">
+              <li>
+                Click the <strong>Brave menu</strong> (three horizontal lines) in the top-right
+              </li>
+              <li>
+                Go to <strong>"More Tools"</strong> → <strong>"Create Shortcut"</strong>
+              </li>
+              <li>
+                Check <strong>"Open as window"</strong> option
+              </li>
+              <li>
+                Click <strong>"Create"</strong> to install
+              </li>
+            </ol>
+          ) : isMobile ? (
+            <ol className="mb-0 small">
+              <li>
+                Tap the <strong>three dots menu</strong> (⋮) in your browser
+              </li>
+              <li>
+                Select <strong>"Add to Home screen"</strong> or <strong>"Install app"</strong>
+              </li>
+              <li>
+                Tap <strong>"Add"</strong> to confirm
+              </li>
+            </ol>
+          ) : (
+            <ol className="mb-0 small">
+              <li>
+                Click the <strong>three dots menu</strong> (⋮) in your browser
+              </li>
+              <li>
+                Look for <strong>"Install Zelda Walkthroughs"</strong> or <strong>"Create shortcut"</strong>
+              </li>
+              <li>
+                Click to install the app
+              </li>
+            </ol>
+          )}
         </Alert>
         <div className="d-flex gap-2">
           <Button

@@ -13,7 +13,7 @@ const __dirname = dirname(__filename);
  */
 
 const sizes = [96, 144, 192, 512];
-const sourceFile = join(__dirname, '..', 'public', 'icons', 'icon.svg');
+const sourceFile = join(__dirname, '..', 'public', 'icons', 'icon-pwa.svg');
 const outputDir = join(__dirname, '..', 'public', 'icons');
 
 async function convertSvgToPng() {

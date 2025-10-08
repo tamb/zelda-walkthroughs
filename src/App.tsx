@@ -3,6 +3,7 @@ import './App.css';
 import { Navbar } from './components/Navbar';
 import { GamePage } from './pages/GamePage';
 import { HomePage } from './pages/HomePage';
+import InstallPrompt from './components/InstallPrompt';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/game/:gameSlug" element={<GamePage />} />
       </Routes>
+      <InstallPrompt />
     </HashRouter>
   );
 };

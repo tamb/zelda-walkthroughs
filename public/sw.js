@@ -1,4 +1,4 @@
-const CACHE_NAME = 'zelda-walkthroughs-v1';
+const CACHE_NAME = 'zelda-walkthroughs-v2';
 const CACHE_VERSION = '1.0.0';
 
 // Get the asset prefix from the current location
@@ -98,6 +98,17 @@ self.addEventListener('activate', (event) => {
             }
           }),
         );
+      })
+      .then(() => {
+        // Clear all caches to force fresh load
+        return caches.keys().then((cacheNames) => {
+          return Promise.all(
+            cacheNames.map((cacheName) => {
+              console.log('Clearing cache:', cacheName);
+              return caches.delete(cacheName);
+            }),
+          );
+        });
       })
       .then(() => {
         // Take control of all clients immediately

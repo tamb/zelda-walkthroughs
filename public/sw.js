@@ -1,4 +1,5 @@
 const CACHE_NAME = 'zelda-walkthroughs-v1';
+const CACHE_VERSION = '1.0.0';
 
 // Get the asset prefix from the current location
 const getAssetPrefix = () => {
@@ -26,12 +27,15 @@ const urlsToCache = [
 
 // Install event - cache resources
 self.addEventListener('install', (event) => {
+  console.log('Service Worker installing...');
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       console.log('Opened cache');
       return cache.addAll(urlsToCache);
     }),
   );
+  // Skip waiting to activate immediately
+  self.skipWaiting();
 });
 
 // Fetch event - serve from cache when offline
@@ -46,6 +50,7 @@ self.addEventListener('fetch', (event) => {
 
 // Activate event - clean up old caches
 self.addEventListener('activate', (event) => {
+  console.log('Service Worker activating...');
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
@@ -56,6 +61,16 @@ self.addEventListener('activate', (event) => {
           }
         }),
       );
+    }).then(() => {
+      // Take control of all clients immediately
+      return self.clients.claim();
     }),
   );
+});
+
+// Listen for messages from the main thread
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });

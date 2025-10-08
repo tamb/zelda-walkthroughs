@@ -32,7 +32,7 @@ export const GamePage = () => {
   if (isWindWaker) {
     return (
       <>
-        <Container className="py-4">
+        <Container>
           <Breadcrumb>
             <Breadcrumb.Item linkAs={Link} linkProps={{ to: '/' }}>
               Home
@@ -46,7 +46,7 @@ export const GamePage = () => {
   }
 
   return (
-    <Container className="py-4">
+    <Container>
       <Breadcrumb>
         <Breadcrumb.Item linkAs={Link} linkProps={{ to: '/' }}>
           Home

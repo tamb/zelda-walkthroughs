@@ -5,7 +5,7 @@ import { zeldaGames } from '../../data/zeldaGames';
 
 export const HomePage = () => {
   return (
-    <Container className="py-4">
+    <Container>
       <Header gameCount={zeldaGames.length} />
       <GameGrid games={zeldaGames} />
     </Container>

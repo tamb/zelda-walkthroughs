@@ -30,9 +30,13 @@ export const Navbar = () => {
   return (
     <BSNavbar variant="dark" expand="lg" className="mb-4">
       <Container>
-        <BSNavbar.Brand as={Link} to="/" className="triforce-accent">
-          Zelda Walkthroughs
-          <small className="text-muted ms-1">{getVersionInfo().display}</small>
+        <BSNavbar.Brand as={Link} to="/">
+          <div className="d-flex flex-column">
+            <span className="triforce-accent">Zelda Walkthroughs</span>
+            <small className="fs-6">
+              {getVersionInfo().display}
+            </small>
+          </div>
         </BSNavbar.Brand>
         <BSNavbar.Toggle aria-controls={navbarId} />
         <BSNavbar.Collapse id={navbarId}>

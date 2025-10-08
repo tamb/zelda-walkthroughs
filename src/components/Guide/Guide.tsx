@@ -243,7 +243,7 @@ export const Guide = ({ gameTitle, sections }: GuideProps) => {
 
   return (
     <div className="guide-content">
-      <Container className="py-4">
+      <Container>
         <div className="d-flex justify-content-between align-items-center mb-4">
           <h1 className="triforce-accent mb-0">{gameTitle} Walkthrough</h1>
           <Badge bg="primary" className="fs-6">

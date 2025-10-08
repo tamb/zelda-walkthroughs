@@ -35,7 +35,7 @@ body {
 .btn-primary {
   background: linear-gradient(135deg, $zelda-green 0%, $zelda-dark-green 100%);
   border-color: $zelda-dark-green;
-  
+
   &:hover {
     background: linear-gradient(135deg, $zelda-light-green 0%, $zelda-green 100%);
     border-color: $zelda-green;
@@ -47,7 +47,7 @@ body {
 .card {
   border: 2px solid $zelda-gold;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  
+
   &:hover {
     box-shadow: 0 4px 16px rgba(60, 128, 49, 0.2);
     transform: translateY(-2px);
@@ -62,8 +62,13 @@ body {
   border-bottom: 2px solid $zelda-gold;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: $zelda-dark-green;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $zelda-light-green;
   font-weight: bold;
 }
 
@@ -81,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: $zelda-green;
-  
+
   &:hover {
     color: $zelda-dark-green;
   }
@@ -89,7 +94,7 @@ a {
 
 .triforce-accent {
   position: relative;
-  
+
   &::before {
     content: '▲';
     color: $zelda-gold;
@@ -101,25 +106,26 @@ a {
 .breadcrumb {
   background-color: transparent;
   padding: 0.75rem 0;
-  
+  margin-bottom: 0;
+
   .breadcrumb-item {
     a {
-      color: $zelda-green;
+      color: $zelda-light-green;
       text-decoration: none;
       font-weight: 500;
-      
+
       &:hover {
-        color: $zelda-dark-green;
+        color: $zelda-light-green;
         text-decoration: underline;
       }
     }
-    
+
     &.active {
-      color: $zelda-dark-green;
+      color: $zelda-light-green;
       font-weight: 600;
     }
-    
-    + .breadcrumb-item::before {
+
+    +.breadcrumb-item::before {
       color: $zelda-gold;
       content: "▶";
       font-size: 0.7em;
@@ -133,39 +139,38 @@ a {
     .accordion-item {
       border: 1px solid $zelda-gold;
       margin-bottom: 0.5rem;
-      
+
       .accordion-header {
         .accordion-button {
           background: linear-gradient(135deg, $zelda-cream 0%, lighten($zelda-cream, 5%) 100%);
           border: none;
           color: $zelda-dark-green;
-          
+
           &:not(.collapsed) {
             background: linear-gradient(135deg, $zelda-light-green 0%, $zelda-green 100%);
             color: white;
             box-shadow: none;
           }
-          
+
           &:focus {
             box-shadow: 0 0 0 0.25rem rgba(60, 128, 49, 0.25);
           }
         }
       }
-      
+
       .accordion-body {
         background-color: $zelda-cream;
         border-top: 1px solid $zelda-gold;
       }
     }
   }
-  
+
   .form-check-input:checked {
     background-color: $zelda-green;
     border-color: $zelda-green;
   }
-  
+
   .form-check-input:focus {
     box-shadow: 0 0 0 0.25rem rgba(60, 128, 49, 0.25);
   }
 }
-

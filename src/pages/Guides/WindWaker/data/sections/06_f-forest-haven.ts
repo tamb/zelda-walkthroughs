@@ -1,0 +1,111 @@
+import type { GuideSection } from '../../../../components/Guide';
+
+export const f_forest_haven: GuideSection = {
+  id: '06_f-forest-haven',
+  title: 'F) FOREST HAVEN',
+  content: `
+---------------------------------------------------------------
+F) FOREST HAVEN
+---------------------------------------------------------------
+
+This is Forest Haven. Climb up the ledges, watching for the giant plants (boko 
+babas). They're not too hard to defeat, just strike quickly. Head right at the 
+fork and continue. At the top you will see a grapple pole, use it to swing 
+across the gap, then quickly turn right and hold up your shield. An octorok will 
+be firing at you. His shots will bounce of your shield and kill him. Jump to the 
+left, then over to the right, then forward. Swing to the very highest level of 
+water (there was an octorok there at one point) and enter the cave.
+
+Head right and climb around. On the back side of the big tree in the center is a 
+giant face. As you get close, red and green chuchus will appear on it. Run 
+towards the tree and hit A so you roll into it. The impact will knock off the 
+chuchus so you can kill them. After they are all dead, the head will talk to 
+you. I think he sounds like a cross between Barry White and the teacher from 
+Charlie Brown, personally. His little leaf friends (children?), the koroks, will 
+talk to you as well. Basically, The tree painfully makes a leaf appear fairly 
+high up. Now, quickly, I want you to empty your bottle (assuming it is full) and 
+try and grab a firefly. You want a big blue/white one. Look close to the walls, 
+the ones you want will shine lots of light on them. When you get one, wander 
+around looking for a purple bud (baba bud) in the ground. You can jump into it, 
+and it will fire you into the air. While in the air, you can aim towards 
+another, and then another, climbing into the sky. From the fourth bud, land on a 
+treetop, then swing over to the fifth with the grappling hook. From the 9th, you 
+can get to the treetop with the deku leaf. Get it. It is a very interesting and 
+useful item. It uses magic (and a magic meter will appear when you get it), and 
+has two main uses. First, if used from the ground, it sends out a powerful gust 
+of air. Second, it can be used like a parachute/handglider if you activate it 
+while in the air. While gliding, if you hit the button again (the one you have 
+it equipped to) you can do an attack where you billow out the leaf. It doesn't 
+do much, but it keeps pesky enemies away. Now, from where you are, you can see 
+another bud you can jump to (you'll have to glide to make it). It'll shoot you 
+up in the air, and then you can glide (from the highest point of your "jump") to 
+a ledge. Cut down weeds to get your magic bar full again, then go through the 
+cave back outside.
+
+You can see an island out here. Set the wind to NW by playing the Wind's Requiem 
+and glide down to it with the leaf. There is a crazy hatch here and a guy. Look 
+back where you just jumped from, and to the right and below that ledge, you can 
+make out a crystal switch. Remember those pear things you bought? Use one. A 
+seagull will take it off of your head and you take control of it. Fly up and 
+into the switch (use A to flap your wings). The valve hatch will open. A ladder 
+will also drop. Hit R to switch back to Link and jump into the hole. You can't 
+do anything here, so get back out. King will now be waiting at the base of the 
+ladder (the only reason we went into the hole). We're going to take our first 
+sidetrack (the side-QUEST part is here, but we need to do some prep work). Use 
+the Wind's Requiem to set the wind N and sail back to (6,6). There, set the wind 
+W and sail to (4,6), Windfall Island. Yes, just going NW would seem faster, but 
+you can't do that. King won't let you.
+
+Land at Windfall Island (you have to do it manually, just get to the dock and 
+jump off King). Go give Lenzo his firefly and he'll give you a better Picto Box. 
+This one takes color photos and is necessary for the HUGE Gallery side-quest. We 
+can actually do some things with it now. Head around town and look for the 
+potion shop (it has a sign outside with a potion on it). There is a woman 
+standing there with a green shirt and orange vest. Talk to her, then take her 
+picture (full body, pictures must always be full body!). Show her the picture 
+and she will give you a treasure map (#33). There's more you can do here, but 
+we'll be back later. It's nothing pressing anyway. Now go find Iceman (Zunari). 
+Talk to him, but not behind the little stand. Instead, move a little to the left 
+and he'll follow you. Talk to him there. He'll say some stuff, then talk to him 
+again. Choose the top option twice. He'll give you a flower (in your delivery 
+bag). We'll do more with that in a bit too. Lastly, go find the Elvis 
+impersonator. Talk to him, then use the Wind Waker. Play Center, Center, Center 
+twice (i.e., do nothing) and he will talk to you. Now play Right, Left, Down. 
+You've learned the Song of Passing. It will change day into night and vice 
+versa. Go back to King, and sail back to Deku Island (E to (6,6), then S to 
+(6,2)).
+
+You don't want to land on the main island; instead, we're shooting for where the 
+hatch was, it's over to the left as you come in, and it's actually before the 
+main island anyway. Go up the ladder and drop into the hatch. Take a full body 
+picture of the kid there and show it to the guy behind the desk. Go back 
+outside, play the Song of Passing twice (i.e., fast forward a day), and go back 
+in. You've just got your first figurine. Welcome to the Nintendo Gallery. This 
+INSANE mini-quest will take you at least two games to compete. Basically, there 
+is a figure for everything in the game, and you get it by taking a picture (99% 
+of the time) and giving it to the guy behind the desk. I will detail some 
+specific ones in the walkthru, but if you don't really care, I don't blame you. 
+This is for the most dedicated of fans. OH, and to get a COMPLETE set, you need 
+the GBA. Sorry. Before you go, I suggest you go into the door to the right of 
+the desk and look at your figurine. You can examine it closely, and if you do, 
+you'll see an 8-bit octorok on the lower-left corner of his bag. Tres cool. You 
+can leave now. Go back to the main island and get up to the room with the Deku 
+Tree.
+
+Finally, back here. Using the pods, shoot up in the air to where you got the 
+leaf (the second landing). Now, jump and glide your way to the lowest ledge that 
+isn't on ground floor, it has plants growing in the shape of an arrow on it.
+
+Head up to the highest part of the cliff, then look at the island towards your 
+left. Use the Wind Waker to play the Wind's Requiem, and set it to SW. This is 
+important for the use of the leaf: always set the wind where you want to go. 
+Jump of the cliff and use the leaf to get to that island. Cut up shrubs to 
+refill your meter, then use the Wind's Requiem again, this time we want NW. DO 
+NOT JUMP YET! Take note of a tornado circling the island you are on. Use the D-
+pad to set the mini-map in the corner to close up. Wait until the tornado is at 
+the southeast position of the island, and then jump east, using the leaf. You 
+should land in it and be blown high in the air. Use the boost to float to the 
+ugly looking island. If the flying guys (peahats) get too close, use the billow 
+attack. Enter the cave... Dungeon #2!
+`,
+};

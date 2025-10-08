@@ -1,0 +1,226 @@
+import type { GuideSection } from '../../../../components/Guide';
+
+export const g_forbidden_woods: GuideSection = {
+  id: '06_g-forbidden-woods',
+  title: 'G) DUNGEON #2: FORBIDDEN WOODS (WOOD)',
+  content: `
+---------------------------------------------------------------
+G) DUNGEON #2: FORBIDDEN WOODS (WOOD)
+---------------------------------------------------------------
+
+This room is full of green chuchus. Don't beware, but be aware. Go up the ramp 
+to the right to get the map. Over on the left side of the room is a giant nut. 
+Pick it up and head toward the door. Throw the nut at the plant there and kill 
+it. You may need to try several times. Enter the next room.
+
+Basically, you want to get around by going from platform to platform using the 
+leaf. But first, let's drop to the bottom of the floor. It's pretty far, so 
+here's the technique I use: use the leaf, then hit A, then leaf again, hit A, so 
+on. It lets you land softly without using up too much magic. Also, as you 
+haven't really gotten a chance to notice yet, the little baba buds that shoot 
+you up in the air refill a bit of your magic each time you enter. If you get 
+low, hop in one, and don't move at all. It'll shoot you straight up and you'll 
+land right back in it, getting more magic. Repeat until you're topped off again. 
+Alright, we're on the floor. Kill the enemies: a few green chuchus and some boko 
+babas. You can get a staff by killing boko babas. Pick it up, light it with the 
+torch, and use that to subsequently light the plant on top of the chest. It's 
+nothing great, just a belt (knight's crest) that some later enemies drop, much 
+like the drops from the various chuchus. We'll want 10 of these eventually, but 
+for now it's no biggie. Now use the baba buds and the leaf to climb and glide 
+your way to the top of the room (opposite where you entered). From the second 
+bud, you don't want to go to the one closest to you, you actually want to glide 
+over to the roof of the room that had the chest in it. Other than that, it's 
+rather straightforward. When you get up to the ledge with the door (the one you 
+haven't entered yet), there is a bomb flower in the grass (guarded by two green 
+chuchus) you can use to blow up the plant on the door. You can keep climbing, 
+but we won't. Not right now. Leave through the newly cleared door.
+
+To your immediate left is a little wind switch thingy. It looks like a weather 
+vane or something. Blow a gust of air at it with the leaf, and a gondola will 
+come over to you. Hop onto it, then blow a gust at the door you just entered. 
+That'll give you the momentum to get across the chasm. Enter the door.
+
+You have no idea how much trouble this room gave me the first time I played, and 
+I'll tell you why: I had no idea how to kill the stupid peahats. I've always 
+hated them, even in Zelda 1. I eventually got through with pure luck and only 
+later realized what to do. Luckily for you, you can learn from my mistakes. What 
+you do is lock onto the little bugger, and blow a gust of wind at him. He'll 
+land, stunned for a second, which is your chance to kill him. Take out the two 
+down here, then the 3 boko babas. The one on the right turns into a baba bud, 
+use it and then the next one you see to get up to the second floor. Use the wind 
+switch to your right, then move the gondola (the same way) to the other side. 
+Cut through the boards to get a ball. Bring it on the gondola, put it down, and 
+move the gondola back to the other side (be careful not to blow the ball, it 
+will fall). Use the ball to kill the door plant and go through.
+
+Use a leaf to blow the ball from its current spot (you can't pick it up, 
+tentacles surround it), then use it to clear the door. 
+
+Head to the right using the grappling hook where needed. Get to the ledge with 
+the locked door. First, get the rupees inside the little room hanging from the 
+ceiling, then get the ball and continue to the right, where there is a door to 
+be cleared. Enter.
+
+Fall in the little chasm in the floor, and kill these spiny guys with the spin 
+attack. Get the chest, climb out, and go on.
+
+Be careful in this next room, it's completely filled with those floor tentacles. 
+Just go slow and you'll be fine. Work your way around to the left first, using a 
+bomb plant to blow up the bars and get the compass. Grab another one and throw 
+it at the bars you can see but can't reach (tentacles in the way). Once that's 
+gone, work back to where you entered and then around the other side. Open the 
+chest for a key, then get back to the door (using the baba buds as a shortcut). 
+Go back two rooms to the one with the giant plant hanging from the ceiling. Go 
+to the left and enter the locked door there.
+
+Use the wind switch and the gondola to get to the other side. Ignore the peahat 
+for now. Enter this door. 
+
+Kill some boko babas, a mothula (giant bug, these are new, no real tricks 
+involved) and some peahats as you work your way up two levels to a set of doors. 
+One is covered with plants, so go in the other one.
+
+Mini-boss fight. It's just a flying mothula. This guy is kinda hard with the way 
+we're equipped, but you can still take him. When he does his flying charge 
+thing, you have an opportunity for a parry attack. Also, you can target him and 
+blow gusts at him with the leaf, which will stun him. Eventually, you'll cut his 
+wings off and then he's just a mothula. Get the chest for the boomerang. The 
+game just got a billion times easier. Let's discuss.
+
+If you hold the Gamecube controller the way it was built to be held, your left 
+thumb is on the d-stick, left index finger on the L-button, right thumb on the 
+B-button, and right index finger on the R-button. If you hold the controller 
+that way, equip the boomerang to the Z-button and leave it there. You will play 
+99% of the rest of the game with it there. From now on, I will not describe how 
+to kill enemies in any detail, with a few exceptions. It should be assumed that 
+you use the following tactic on EVERYTHING: lock on with L, hit with boomerang, 
+pound with sword while vulnerable, repeat until dead. As always, it won't work 
+on some enemies... at first. But even those that aren't susceptible to the 
+attack can be made to be (usually). This is why you want it set to Z, because Z 
+allows the quickest transition between boomerang and sword (simply because Y and 
+X use the thumb, the same as the sword, so you'd need to get it back in 
+position). Besides this combat usage, the boomerang is useful for other things, 
+so we'd like it to be at our fingertips anyway. 
+
+Back to the game. Above the door we entered, there is a pair of crystal 
+switches. Hold in Z (if you listened to me) and move the cursor over each of 
+them. You should see the same little starburst you see with the grappling hook 
+if done right. Once you've targeted both, let go of Z and the boomerang will 
+home in on them. You can target up to 5 things (switches, rupees, enemies, etc.) 
+in one throw. Always target as much as possible. Leave the room.
+
+Remember the pesky peahats? Not a problem with that technique I just told you. 
+In fact, hitting them with the boomerang knocks off the propellers, rendering 
+them flightless. Head over to the right side of the room (from this door) and 
+you'll see a grapple pole. Hook on, then use R to climb up your rope and get on 
+top of the pole. Grapple to the next one, and Hit R again until you are hanging 
+straight down, then drop onto the platform below you. Use the moving platforms 
+to climb even higher, finding a chest with a joy pendant in it. Drop down to the 
+level we were just on and go to the door with two plants on it. Target them with 
+the boomerang and they'll die. Enter.
+
+Kill all these hanging tentacles with the boomerang (5 at a time), and use the 
+leaf to float to the other side. This chest has another joy pendant. Enter the 
+next room.
+
+Target all 5 vines at once (important) to cut down the big flower. Drop down to 
+where it landed (you may see a door with vines on it on the middle level, but 
+we're not going there yet) using the leaf intermittently to slow your fall. Go 
+in the door here.
+
+Kill the peahat then kill the spiny guys from afar with the boomerang. Go to the 
+right (can't go left) and kill the green chuchus. The blue tentacles regenerate 
+infinitely, so get them out of your way and keep moving. Enter the door.
+
+Jump across the flower hanging in front of you to get a chest (10 rupees). Cut 
+down the flower and drop down to it. Kill the octorok like before (or with the 
+boomerang). Grab the bomb flower and use it to blow up the boards. Enter that 
+room.
+
+**GBA note** The piece of land to your right as you enter the room has a 
+question mark. Blow it up with a Tingle bomb to get another Tingle statue. **end 
+GBA note**
+
+Kill the peahats. Go around the room killing boko babas and spiny guys (both die 
+after one boomerang attack). The furthest boko baba from the entrance turns into 
+a baba bud, use it to get up a level. Use the wind switches to make the gondola 
+come and carry you over to a bomb flower. Pick it up and hop to the edge of the 
+gondola. Throw it into the hole in the ceiling of the room below. Eventually 
+you'll get it and it'll kill the plant there that was blocking the chest. Drop 
+through the same way and open it for another treasure map (#15). Crawl out the 
+little hole in the back and leave this room the way you came in.
+
+As soon as you enter, you're at a perfect angle to hit all 4 vines and cut the 
+flower down again. Do it. Hop on the center and kill the octorok again. Use the 
+leaf to propel your way downriver (it takes more than one gust, unlike the 
+gondolas). At the bend are two octoroks you should kill, then keep moving the 
+flower to the ledge. Kill three green chuchus and go through the door.
+
+Go to the top of the hill, then while facing the door you came in from, turn to 
+your right. Target this switch first, then the other four, moving clockwise 
+around the room. Done correctly, you'll hit all at once and open the bars below. 
+Get the chest for the boss key, then kill the two moblins that show up. The 
+easiest way is what I call the modified boomerang strategy. Stun one with it, 
+then the other, then attack either one. Repeat. Climb back up the hill where you 
+can grapple over to another door. Leave.
+
+Head forward and enter the door there. We're back at the huge flower that fell 
+to the ground. From where you enter, use the wind switch to your left to create 
+a tornado. Hop into the baba bud, then glide to the tornado using the leaf to 
+rise up a level. Kill the two door plants and enter that door.
+
+Kill the mothulas, get the chest (joy pendant), and go forward into the next 
+room.
+
+Kill any balls on the floor with the boomerang, you'll get stuff. One on the 
+left side has a fairy you can bottle if you wish. Some have spiny guys or green 
+chuchus, but they're simple. On the right side, you can grab a staff which you 
+can light and burn the lid off the warp jar. Do it and get in. We're back in the 
+first room. Go through the door to the second room. Use baba buds to work your 
+way all the way up to the very top to that chest we couldn't get before. 
+Boomerang the plant and get another treasure map (#1). Drop back to where you 
+came in, return to the first room, and use the warp pot. Rekill any balls you 
+wish and then enter the boss door.
+
+                            BOSS: Kalle Demos
+
+First of all, if you're going for a complete Gallery, take a picture. You won't 
+be able to fit everything in the viewfinder, just center on the huge bulb.
+
+The trick is to keep moving, running in circles around the room, as tentacles 
+follow you and pop out of the floor. Wait until they do (behind you, if you're 
+doing it right), and that is your chance to stop and take out 5 of the tentacles 
+holding the boss up. They'll regenerate, so you want to do this as quickly as 
+possible. After cutting them all down, it falls, exposing a core you can hit 
+with the sword. Run in and do so. You're supposed to try and escape before it 
+closes up, but it's not worth it. Do the extra damage that couple seconds will 
+allow, and take the half heart or whatever penalty you get for still being 
+inside. Repeat until dead (after about 3 falls).  Get your heart and enter the 
+glowing spot.
+
+Deku tree will talk to you a bit and give you Farore's Pearl. One left. Leave 
+where we originally came in, and kill anything that gets in the way as you head 
+back to King. Down by him, though, there's a mailbox that should be dancing 
+around. If so, hit A by it and collect your mail, a heart piece. King will talk, 
+hop in, use the Wind Waker to go NW (if need be, it should actually be set that 
+way), and head to (2,4) (it's marked on your map).
+
+You may get attacked on the way. If attacked by seahats (giant helicopter 
+things), kargarocs, or gyorgs (sharks), 2 boomerang attacks will do the trick. 
+Run from pirate ships. It's best to try and escape the helicopter things too. I 
+hate them. You'll automatically land at this island too. We're not staying long. 
+Quill talks to you. There's still a little to do. First, run through the little 
+path to the other side of this tiny island and turn right. There is a little 
+raft there with a guy on it. Talk to him, then give him the flower we got from 
+Iceman earlier. In return, he'll give you a weirder looking flower. Now, give 
+him this flower, and you'll get an even weirder one. Go back to King, but don't 
+get on yet. Look directly behind him and you'll see a tiny island with a hill. 
+Get on King and go there. Run around the side up to the top, then jump off and 
+glide NW with your leaf. There are two islands separated by a little bit of 
+water, and you want to aim towards the right one. On the wall is a little alcove 
+you can land on with a chest you can get a heart piece from. Swim back to King 
+and get on.
+
+Head to Windfall Island (4,7), which is northeast, so set the wind that way.
+`,
+};

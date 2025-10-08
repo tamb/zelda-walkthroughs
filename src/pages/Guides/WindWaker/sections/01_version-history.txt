@@ -1,0 +1,41 @@
+===============================================================================
+1.       Version History         
+===============================================================================
+
+Version 2.25: April 1, 2003
+              No jokes here. Added an enemies section. Look for more tomorrow. 
+
+Version 2.10: March 30, 2003 (second update today)
+              The updates will be coming fast and furious now. I basically want 
+              to do some organizational things. This particular update has 
+              sections on the upgrades, heart pieces, and some reader tips 
+              mixed into the walkthru. I also finished redoing what I finished 
+              yesterday but inadvertently lost. Over the next couple days, look 
+              for updates with stuff on Tingle/GBA, the enemies, the Nintendo 
+              Gallery, and a section on the side/mini-quests.
+
+              Also, I am contemplating changing the way I refer to islands. The 
+              (x,y) coordinate system has been confusing people. I am thinking 
+              of switching to the letter-number system that is so popular 
+              (e.g., A7, B6). E-mail me with any thoughts you have on the 
+              issue.
+
+Version 2.01: March 31, 2003
+              Crap, and I just realized I uploaded a half-finished version 2.0 
+              Yesterday. I've gotta fix that right away.
+
+Version 2.00: March 30, 2003
+              MAJOR update. Americanized the guide. Added multiple things, 
+              including the remaining heart pieces and maps (charts, whatever).
+              There are some things I'd like to do still that I haven't gotten 
+              around to (i.e., adding more sections), but this guide will now 
+              help you get everything in the game. So, the walkthru is 
+              complete, but unfinished. I also changed the introduction 
+              completely.
+
+Version 1.00: March 13, 2003rc/pages/Guides/WindWaker
+              The first version of the guide. The walkthru is complete in the 
+              sense that it contains everything you need to get through the 
+              game. I am missing a lot of things still, heart pieces and the 
+              like. That stuff probably won't be remedied until the English 
+              version comes out in 11 days or so.

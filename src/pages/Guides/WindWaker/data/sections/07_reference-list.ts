@@ -1,0 +1,609 @@
+import type { GuideSection } from '../../../../components/Guide';
+
+export const reference_list: GuideSection = {
+  id: '07_reference-list',
+  title:
+    "I've tried to compile some lists for easy reference. Everything found here can",
+  content: `===============================================================================
+7.        Reference Lists
+===============================================================================
+
+I've tried to compile some lists for easy reference. Everything found here can 
+be found in the main walkthru, but if you want to know real quick what the 
+Ballad of Gales is or something, here's where you can look.
+
+---------------------------------------------------------------
+A) WIND WAKER SONGS
+---------------------------------------------------------------
+
+Wind's Requiem:     Up, Left, Right
+                    --Learned at the wind shrine on Dragon Roost Island
+Song of Passing:    Right, Left, Down
+                    --Learned from Tott, the Elvis guy, on Windfall Island
+Ballad of Gales:    Down, Right, Left, Up
+                    --Shoot Cyclos three times with an arrow and he will teach 
+                    you the song
+Command Melody:     Left, Center, Right, Center
+                    --Learned in the Tower of the Gods dungeon after putting 
+                    the first black statue in place
+Earth God's Lyric:  Down, Down, Center, Right, Left, Center
+                    --Learned from a tablet in the Earth Temple
+Wind God's Aria:    Up, Up, Down, Right, Left, Right
+                    --Learned from a tablet in the Wind Temple
+
+---------------------------------------------------------------
+B) LOCATIONS OF BOTTLES
+---------------------------------------------------------------
+
+Bottle #1
+Square: (6,6)
+How you get it: Medli gives it to you outside of the first dungeon. You need 
+this bottle to progress in the game.
+
+Bottle #2:
+Square: (6,3)
+How you get it: Inside a sub at the center of the square. Kill 3 moblins and 
+some mice to get a chest with the bottle inside.
+
+Bottle #3:
+Square: (4,6)
+How you get it: First, you need to have beaten the Forsaken Fortress a second 
+time (otherwise this girl is still locked up). At night, she can be found in 
+town. Talk to her and she'll yell at you. When you leave, she will sneak away. 
+Follow her without being seen and she will eventually end up at a safe. Talk to 
+her and choose the top option 6 times to get the bottle.
+
+Bottle #4:
+Square: (2,5)
+How you get it: Buy it from the traveling salesman. Simple enough.
+
+---------------------------------------------------------------
+C) ARROW/BOMB/MAGIC/WALLET UPGRADES
+---------------------------------------------------------------
+
+These are in the order in which I list them in the FAQ (and the order I find 
+them easiest to get).
+
+Wallet Upgrade #1 (1000 rupees):
+Location: Outset Island (2,1)
+How: Go up to the forest where you met Tetra. Go around just like you did the 
+first time (there are mothulas and moblins here now) and eventually you'll see a 
+large boulder. Use bombs to blow it up and drop down for the upgrade fairy.
+
+Bomb Upgrade #1 (60 bombs):
+Location: Southern Fairy Island (4,2)
+How: Simple. Blow up the boards blocking the entrance to the little shell house. 
+The upgrade fairy is inside.
+
+Fire/Ice Arrows:
+Location: Mother & Child Isles (2,6)
+How: You need to use the Ballad of Gales to teleport inside the island. Other 
+than that, you don't need to do anything. The fairy queen automatically appears.
+
+Magic Upgrade:
+Location: Two-eye Reef (4,1)
+How: You need to kill a squid (big octo) to get this. When you get to the 
+square, use your telescope to scan the skies looking for a flock of seagulls. 
+Sail to wherever they are and you'll automatically be pulled into battle with 
+the squid. Hit his eyes (this is the easiest one, he only has four) with the 
+boomerang until he dies. The fairy will appear and more than double your magic 
+meter.
+
+Arrow Upgrade #1 (60 arrows):
+Location: Thorned Fairy Island (7,4)
+How: Simple too. Just pound the switches on the island using the hammer, then go 
+into the shell house.
+
+Bomb Upgrade #2 (99 bombs):
+Location: Eastern Fairy Island (5,5)
+How: Basically the same as the last one. Blow up a boulder on the island and go 
+into the shell house.
+
+Wallet Upgrade #2 (5000 rupees):
+Location: Northern Fairy Island (3,7)
+How: Easiest one of all. You don't need to do anything other than walk into the 
+shell house. There's not so much as a boulder in the way.
+
+Arrow Upgrade #2 (99 arrows):
+Location: Western Fairy Island (1,5)
+How: This one is very similar to the last arrow upgrade too. Hit the switch with 
+the hammer and go inside.
+
+---------------------------------------------------------------
+D) TRIFORCE MAPS
+---------------------------------------------------------------
+
+For details on how to get the maps, see the walkthru.
+
+Triforce map #1:
+Found: (2,3)
+Triforce location: (2,4)
+
+Triforce map #2:
+Found: (5,3)
+Triforce location: (4,7)
+
+Triforce map #3:
+Found: (7,3)
+Triforce location: (3,3)
+
+Triforce map #4:
+Found: On the ghost ship (varies)
+Triforce location: (2,1)
+
+Triforce map #5:
+Found: (1,3)
+Triforce location: (7,2)
+
+Triforce map #6:
+Found: (2,1)
+Triforce location: (4,3)
+
+Triforce map #7:
+Found: (3,3)
+Triforce location: (6,7)
+
+Triforce map #8:
+Found: (7,7)
+Triforce location: (4,1)
+
+---------------------------------------------------------------
+E) TREASURE MAPS
+---------------------------------------------------------------
+
+For better details on how to get the maps, look in the walkthru.
+
+Map #1:
+Found: Forbidden Woods (6,2)
+How: In chest
+Treasure location: (5,3)
+Treasure: 200 rupees
+
+Map #2:
+Found: Windfall Island (4,6)
+How: Give 20 skull necklaces to Maggie's father (after saving her)
+Treasure location: (2,5)
+Treasure: Piece of Heart
+
+Map #3:
+Found: Forest Haven
+How: Jump from ledge at top of Deku Tree
+Treasure location: (5,5)
+Treasure: 200 rupees
+
+Map #4:
+Found: (2,5)
+How: Buy from traveling salesman
+Treasure location: (4,2)
+Treasure: Piece of heart
+
+Map #5:
+Found: Wind Temple (4,7)
+How: In chest
+Treasure location: (7,4)
+Treasure: Piece of heart
+
+Map #6:
+Found: Tower of Gods (5,4)
+How: In chest
+Treasure location: (4,4)
+Treasure: 200 rupees
+
+Map #7:
+Found: Windfall Island (4,6)
+How: Battleship game
+Treasure location: (2,7)
+Treasure: 200 rupees
+
+Map #8:
+Found: (1,1)
+How: Chest inside hole on island
+Treasure location: (1,5)
+Treasure: 200 rupees
+
+Map #9:
+Found: (5,7)
+How: Chest inside of submarine
+Treasure location: (1,1)
+Treasure: 200 rupees
+
+Map #10:
+Found: (5,7)
+How: In chest
+Treasure location: (3,5)
+Treasure: 200 rupees
+
+Map #11:
+Found: Dragon Roost Cavern (6,6)
+How: In chest
+Treasure location: (5,7)
+Treasure: Piece of heart
+
+Map #12:
+Found: Earth Temple (3,1)
+How: In chest
+Treasure location: (2.2)
+Treasure: 200 rupees
+
+Map #13:
+Found: Two-eye Reef (4,1)
+How: Clear fort for chest
+Treasure location: (7,7)
+Treasure: Map of secret holes
+
+Map #14:
+Found: (3,1)
+How: Chest inside of submarine
+Treasure location: (5,4)
+Treasure: 200 rupees
+
+Map #15:
+Found: Forbidden Woods (6,2)
+How: In chest
+Treasure location: (5,1)
+Treasure: Piece of heart
+
+Map #16:
+Found: (6,7)
+How: Clear watchtowers
+Treasure location: (3,2)
+Treasure: 200 rupees
+
+Map #17:
+Found: (3,6)
+How: Cannon target game
+Treasure location: (5,2)
+Treasure: 200 rupees
+
+Map #18:
+Found: Windfall Island (4,6)
+How: Auction
+Treasure location: (4,6)
+Treasure: 1 FREAKING RUPEE
+
+Map #19:
+Found: Four-eye Reef (1,6)
+How: Clear fort for chest
+Treasure location: (7,6)
+Treasure: Map of heart pieces (on land)
+
+Map #20:
+Found: Earth Temple (3,1)
+How: In chest
+Treasure location: (6,3)
+Treasure: Piece of heart
+
+Map #21:
+Found: Cyclops Reef (3,4)
+How: Clear fort for chest
+Treasure location: (3,4)
+Treasure: Map of full moon glowing spots
+
+Map #22:
+Found: (3,7)
+How: Chest inside of submarine
+Treasure location: (3,6)
+Treasure: 200 rupees
+
+Map #23:
+Found: Windfall Island (4,6)
+How: Battleship game
+Treasure location: (1,2)
+Treasure: Piece of heart
+
+Map #24:
+Found: Windfall Island (4,6)
+How: Give ladies a picture of Lenzo and his female friend
+Treasure location: (3,7)
+Treasure: 200 rupees
+
+Map #25:
+Found: (7,2)
+How: In chest
+Treasure location: (1,7)
+Treasure: 200 rupees
+
+Map #26:
+Found: Six-eye Reef (4,4)
+How: Clear fort for chest
+Treasure location: (4,5)
+Treasure: Map of squids
+
+Map #27:
+Found: (5,3)
+How: In chest
+Treasure location: (7,5)
+Treasure: 200 rupees
+
+Map #28:
+Found: (1,1)
+How: Playing mini-golf
+Treasure location: (1,3)
+Treasure: 200 rupees
+
+Map #29:
+Found: Windfall Island (4,6)
+How: Chest in Lenzo's house
+Treasure location: (2,6)
+Treasure: 200 rupees
+
+Map #30:
+Found: Tower of Gods (5,4)
+How: In chest
+Treasure location: (5,6)
+Treasure: Piece of heart
+
+Map #31:
+Found: Windfall Island (4,6)
+How: Show depressed guy picture of full moon
+Treasure location: (6,2)
+Treasure: Piece of heart
+
+Map #32:
+Found: Three-eye Reef (1,4)
+How: Clear fort for chest
+Treasure location: (6,1)
+Treasure: Map of treasure maps to heart pieces
+
+Map #33:
+Found: Windfall Island (4,6)
+How: Show Lenzo's friend a picture of herself
+Treasure location: (7,1)
+Treasure: Piece of heart
+
+Map #34:
+Found: Salvage Corp. (6,4)
+How: Freely given
+Treasure location: (6,4)
+Treasure: 200 rupees
+
+Map #35:
+Found: Wind Temple (4,7)
+How: In chest
+Treasure location: (2,3)
+Treasure: 200 rupees
+
+Map #36:
+Found: Ice Ring Isle (5,2)
+How: In chest
+Treasure location: (7,3)
+Treasure: 200 rupees
+
+Map #37:
+Found: (2,5)
+How: Chest in hole on island
+Treasure location: (6,5)
+Treasure: 200 rupees
+
+Map #38:
+Found: Windfall Island (4,6)
+How: Auction
+Treasure location: (1,4)
+Treasure: Piece of heart
+
+Map #39:
+Found: Dragon Roost Cavern (6,6)
+How: In chest
+Treasure location: (6,6)
+Treasure: 200 rupees
+
+Map #40:
+Found: (4,2)
+How: Clear watchtowers
+Treasure location: (3,1)
+Treasure: 200 rupees
+
+Map #41:
+Found: Five-eye reef (2,2)
+How: Clear fort for chest
+Treasure location: (1,6)
+Treasure: Map of upgrade fairies
+
+---------------------------------------------------------------
+F) HEART PIECES
+---------------------------------------------------------------
+
+Again, I listed these in the order I get them in the FAQ (and the numbers 
+reflect that; there is no official "heart piece #7," for example). There are 44 
+pieces total. My descriptions of how to get them are brief, VERY brief in some 
+cases. Look in the walkthru for more specific details.
+
+Heart Piece #1:
+Location: Forest Haven/Any mailbox
+How: You receive it with a letter after you beat Kalle Demos (the 2nd dungeon 
+boss).
+
+Heart Piece #2:
+Location: Greatfish Isle (2,4)
+How: On a ledge. Jump from a hill and float to it with the leaf.
+
+Heart Piece #3:
+Location: Dragon Roost Island/Any mailbox
+How: Play the mail sorting game in the Rito town and get 25 letters. Wait until 
+the 2nd employee shows up, and get 25 letters again. He'll give you a letter to 
+mail to his mother. Do so and you get the piece of heart the next day.
+
+Heart Piece #4:
+Location: Forsaken Fortress (1,7)
+How: In a chest.
+
+Heart Piece #5:
+Location: Outset Island (2,1)
+How: Take sword training with Orca. Hit him 500 times before he hits you 3 and 
+it's your reward.
+
+Heart Piece #6:
+Location: (6,7)
+How: Kill the 12-eyed squid. Pull it up from the sea where he was.
+
+Heart Piece #7:
+Location: Windfall Island (4,6)
+How: Win it at the auction.
+
+Heart Piece #8:
+Location: Windfall Island (4,6)
+How: Get the windmill moving again, then shoot a fire arrow into the turning 
+thing up top. The man on the walkway leading to the windmill will give it to 
+you.
+
+Heart Piece #9:
+Location: Windfall Island (4,6)
+How: Win the Battleship game at least once.
+
+Heart Piece #10:
+Location: Windfall Island (4,6)
+How: Start the windmill and relight the lighthouse (see heart #8). A chest will 
+appear. Jump/glide to it from the bomb shop.
+
+Heart Piece #11:
+Location: Windfall Island (4,6)
+How: Play hide-and-seek with the "Killer Bees" (the kids that go to Miss Marie's 
+school). Catch all four and they give you the heart.
+
+Heart Piece #12:
+Location: Windfall Island (4,6)
+How: Help set up the lady in the orange dress and the guy that wanders around 
+town. Show up on their date and they will rewards you (see section M for more 
+details).
+
+Heart Piece #13:
+Location: Windfall Island (4,6)
+How: Mail a letter for Maggie, then deliver the response for Quill (who can't 
+get into the house). She'll give you the heart.
+
+Heart Piece #14:
+Location: (3,5)
+How: Kill another 12-eyed squid here. Pull it up from the glowing spot.
+
+Heart Piece #15:
+Location: Outset Island (2,1)
+How: Place the large pig (Lucky, I think his name is) on some black soil and 
+spread bait on the ground. He'll dig up the heart piece.
+
+Heart Piece #16:
+Location: Headstone Island (3,1)
+How: Take control of a seagull with a Hyoi Pear. Fly through the piece of heart 
+(it's at the top of the mountain) and switch back to Link.
+
+Heart Piece #17:
+Location: (1,4)
+How: Pull it up with treasure map #38.
+
+Heart Piece #18:
+Location: Needle Rock Isle (1,3)
+How: Take control of a seagull with a Hyoi pear. Hit the switch on top of the 
+Needle Rock to stop the flames that surround the chest.
+
+Heart Piece #19:
+Location: (1,2)
+How: Pull it up with treasure map #23.
+
+Heart Piece #20:
+Location: Outset Island (2,1)
+How: The prize after going through 50 floors in the "dungeon" here (where you 
+get Triforce map #6).
+
+Heart Piece #21:
+Location: (2,5)
+How: There are two warships S of the island. Kill them both and one drops the 
+piece of heart.
+
+Heart Piece #22:
+Location: (2,5)
+How: Pull it up with treasure map #2.
+
+Heart Piece #23:
+Location: (2,5)
+How: Buy it from Beedle.
+
+Heart Piece #24:
+Location: Star Island (2,7)
+How: Clear all the enemies inside the hole (it's under one of the boulders on 
+the island).
+
+Heart Piece #25:
+Location: Spectacle Island (3,6)
+How: Win the target shooting game.
+
+Heart Piece #26:
+Location: (3,3)
+How: Clear the watchtowers and a chest will appear.
+
+Heart Piece #27:
+Location: (4,2)
+How: Pull it up with treasure map #4.
+
+Heart Piece #28:
+Location: (4,4)
+How: Clear the sub (located SW of center).
+
+Heart Piece #29:
+Location: Windfall Island (4,6)
+How: Talk to Miss Marie about volunteering. Put a total of 34 town flowers in 
+the various platforms on the island, inside and out. Talk to a man sitting on a 
+bench when you are done (you need to talk twice) and he gives it to you.
+
+Heart Piece #30:
+Location: (5,7)
+How: Pull it up with treasure map #11.
+
+Heart Piece #31:
+Location: (5,6)
+How: Pull it up with treasure map #30.
+
+Heart Piece #32:
+Location: Pawprint Isle (5,6)
+How: In a chest inside the cave on the island.
+
+Heart Piece #33:
+Location: (5,1)
+How: Pull it up with treasure map #15.
+
+Heart Piece #34:
+Location: Angular Isles (5,1)
+How: Pull out blocks on the large island to get to the chest at the top. 
+
+Heart Piece #35:
+Location: (6,2)
+How: Pull it up with treasure map #31.
+
+Heart Piece #36:
+Location: (6,3)
+How: Pull it up with treasure map #20.
+
+Heart Piece #37:
+Location: Bomb Island (6,3)
+How: Clear the cave on the island (it's under a boulder) to get a chest with the 
+heart inside.
+
+Heart Piece #38:
+Location: Greatfish Isle (2,4)
+How: Complete the trading mini-quest (look in the walkthru).
+
+Heart Piece #39:
+Location: Dragon Roost Island/Any mailbox
+How: There is a guard who wants to give golden feathers to his girlfriend. Give 
+him 20 and she will send you a letter with the heart.
+
+Heart Piece #40:
+Location: Flight Control Platform (7,6)
+How: Win the mini-game here (glide all the way to the end).
+
+Heart Piece #41:
+Location: (7,4)
+How: Pull it up with treasure map #5.
+
+Heart Piece #42:
+Location: (7,1)
+How: Pull it up with treasure map #33.
+
+Heart Piece #43:
+Location: Five Star Isles (7,1)
+How: Clear the sub (located S of the island).
+
+Heart Piece #44:
+Location: Various
+How: Water all 8 mini Deku Trees with forest water and the last one drops it 
+(see the walkthru).
+`,
+};

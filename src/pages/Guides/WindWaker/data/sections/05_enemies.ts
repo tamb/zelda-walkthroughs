@@ -1,0 +1,214 @@
+import type { GuideSection } from '../../../../components/Guide';
+
+export const enemies: GuideSection = {
+  id: '05_enemies',
+  title: 'Enemies',
+  content: `===============================================================================
+5.          Enemies         
+===============================================================================
+
+This is a list of the basic, everyday enemies you will face. For the bosses, 
+look in their respective dungeons. The spoils lists are to the best of my 
+knowledge, but feel free to correct me.
+
+---------------------------------------------------------------
+A) LAND/DUNGEON ENEMIES
+---------------------------------------------------------------
+
+ARMOS
+Description: Small bouncy statue with spikes
+Spoils dropped: None
+Strategy: You need to hit the crystal on the back of the Armos. You can either 
+strafe around it until you have an opening, or shoot the "eye" on the front with 
+and arrow to stun the Armos and attack then.
+
+ARMOS KNIGHT
+Description: Large bouncy statue with spikes
+Spoils dropped: None
+Strategy: Lock on and shoot an arrow into the eye of the statue, then chuck a 
+bomb into its open maw.
+
+BLACK CHUCHU
+Description: Black blob
+Spoils dropped: Random chuchu jellies
+Strategy: These are the trickiest of all. You need to get the chuchu to step 
+into light (or shine light on them with the mirror shield) to turn them into 
+statues. Then you can throw the statues or hit them with the hammer to kill the 
+chuchu. Like magtails, they are often used on switches, though.
+
+BLUE BUBBLE
+Description: Flying skull covered in blue flames
+Spoils dropped: None
+Strategy: If you get touched by the flames, you can't use any weapons/items 
+(much like the bubbles from Zelda 1), so avoid getting hit at all costs. Use 
+either the Deku Leaf or an ice arrow to put out the blue fire (the weapons are 
+each useful in certain situations). When the flames are out, kill the skull with 
+your sword.
+
+BLUE CHUCHU
+Description: Blue blob
+Spoils dropped: Blue chuchu jellies
+Strategy: They are usually electrified, so stun with the boomerang, then attack 
+with the sword.
+
+BOKO BABA
+Description: Think "Little Shop of Horrors"
+Spoils dropped: Baba seeds
+Strategy: One blow from a boomerang will kill it. If you don't have the 
+boomerang yet, use the grappling hook to stun the plant for a second and wail on 
+it with your sword.
+
+BOKOBLIN
+Description: The smaller pig-nosed guys
+Spoils dropped: Joy pendants
+Strategy: No real strategy needed, these guys are a cinch. Just whack them with 
+the sword until they die. Use the boomerang to make an easy task even easier.
+
+DARKNUT
+Description: Armored knight, kinda looks like a dog underneath
+Spoils dropped: Knight's crests
+Strategy: Use the parry attack. Always the parry attack. When you have the 
+helmet off, you can stun with the boomerang. Run behind and cut the straps 
+holding the rest of the armor on. Then use the boomerang attack described above 
+in section 4.
+
+FLOOR MASTER
+Description: Strange bodiless arm
+Spoils dropped: None
+Strategy: Stun with the boomerang, then attack. Or use fire arrows. Or, use an 
+ice arrow, then a fire arrow while frozen. Just be quick with whatever you 
+decide to do, or you'll be sucked back to the beginning of the dungeon (or 
+somewhere else that isn't where you were).
+
+GREEN CHUCHU
+Description: Green blob
+Spoils dropped: Green chuchu jellies
+Strategy: Hit them with the sword. That's it. The boomerang stuns them.
+
+KARGAROC
+Description: Multi-colored bird (also found on the sea)
+Spoils dropped: Golden feathers
+Strategy: Use the sword. Or two hits with the boomerang. Or one arrow. Or a 
+bomb. Or... These guys are easy, go away.
+
+KEESE
+Description: Bats
+Spoils dropped: None
+Strategy: Boomerang, grappling hook, sword, arrow... Also very easy. They come 
+on fire sometimes. If you get hit, roll on the ground to put out the flames.
+
+MAGTAIL
+Description: Giant centipede
+Spoils dropped: None
+Strategy: To kill, use the parry attack. More often, though, you want them alive 
+(but in ball form). In that case, throw a jar of water at them, or hit them with 
+the sword/boomerang. But NOT the parry attack.
+
+MINIBLIN ("Imp")
+Description: Little, well, imp guys
+Spoils dropped: None
+Strategy: Sword, boomerang, arrows... They're easy; they just like to swarm you.
+
+MOBLIN
+Description: The big pig-nosed guys
+Spoils dropped: Skull necklaces
+Strategy: Use the parry attack or just the sword. The boomerang makes these guys 
+a lot easier. They're not all that tough anyway, though.
+
+MORTH ("Spiny/spiky guys")
+Description: Little balls of spines with an eye
+Spoils dropped: None
+Strategy: They don't do damage, just slow you down. A spin attack will clear 
+them off of you and often kill them. The boomerang kills them too.
+
+MOTHULA
+Description: Giant bug
+Spoils dropped: None
+Strategy: Fire arrows kill them in one hit. The boomerang is nice too, or the 
+parry attack. They fly sometimes too. Just cut off the wings and they're regular 
+mothulas.
+
+OCTOROK
+Description: Giant octopus (also found on the sea)
+Spoils dropped: None
+Strategy: You can't use your sword on them (they won't let you get close 
+enough), but any projectile weapon works. Or, just use your shield to reflect 
+the rocks they shoot at you.
+
+PEAHAT
+Description: Whirly flying plant guys
+Spoils dropped: Golden feathers
+Strategy: Use the Deku Leaf or the boomerang to force them to land, then kill 
+them with the sword. Easy.
+
+POE
+Description: Translucent ghost with lantern.
+Spoils dropped: None
+Strategy: You can't attack them until they are solid. Make them that way by 
+either shining light on them with the mirror shield or getting them to follow 
+you into light elsewhere. Once solid, they are susceptible to the boomerang 
+attack above or fire arrows. OR, you can just wait for them to possess you 
+(while translucent, but after they drop the lanterns) and they'll be effectively 
+dead.
+
+RE-DEAD
+Description: Zombie with hoop earrings
+Spoils dropped: None
+Strategy: Wail on them with the sword. You can freeze them for a few seconds by 
+shining light on them.
+
+RED BUBBLE
+Description: Flying skull covered in red flames
+Spoils dropped: None
+Strategy: You can use the Deku Leaf to put out the flames, but why? Just hit 
+them with an arrow (a regular one) or the sword.
+
+RED CHUCHU
+Description: Red blob
+Spoils dropped: Red chuchu jellies
+Strategy: 
+
+STALFOS KNIGHT
+Description: Giant skeleton
+Spoils dropped: None
+Strategy: First, you need to blow them apart with a bomb. When the pieces of the 
+skeleton are on the ground, attack the skull with your sword or the hammer.
+
+WIZZROBE
+Description: Flying wizard
+Spoils dropped: None
+Strategy: If they are low enough, use the sword. It's generally easier to use 
+fire/ice arrows, though.
+
+YELLOW CHUCHU
+Description: Yellow blob
+Spoils dropped: Green/red chuchu jellies
+Strategy: Same as the blue chuchu. Stun with the boomerang, then attack with the 
+sword.
+
+---------------------------------------------------------------
+B) SEA ENEMIES
+---------------------------------------------------------------
+
+BIG OCTO ("Squids")
+Description: Giant squids with 4, 8, or 12 eyes
+Spoils dropped: None
+Strategy: Take out the eyes with the boomerang. It takes three hits per eye.
+
+GYORG
+Description: Shark
+Spoils dropped: None
+Strategy: Hit them two times with the boomerang. Easy.
+
+SEAHAT
+Description: Giant turnip helicopter things
+Spoils dropped: None
+Strategy: Hit them twice with the boomerang. These guys are easy, but VERY 
+annoying.
+
+WARSHIP
+Description: Pirate ships
+Spoils dropped: None
+Strategy: Three cannonball hits. Try to get in close, they are easier at point-
+blank range.`,
+};

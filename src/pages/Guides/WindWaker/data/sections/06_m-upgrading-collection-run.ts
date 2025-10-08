@@ -1,0 +1,273 @@
+import type { GuideSection } from '../../../../components/Guide';
+
+export const m_upgrading_collection_run: GuideSection = {
+  id: '06_m-upgrading-collection-run',
+  title: 'M) UPGRADING AND COLLECTION RUN',
+  content: `
+---------------------------------------------------------------
+M) UPGRADING AND COLLECTION RUN
+---------------------------------------------------------------
+
+First thing first, if you haven't found a huge tornado and learned the Ballad of 
+Gales yet, do so (see it detailed above, right after the getting the master 
+sword). I BELIEVE (not sure, so don't quote me on this) he can be found in the 
+following locations: (2,1), (2,4), (2,6), (3,5), (4,2), (4,6), (5,4), (6,2), 
+(6,6). Those are all the places you can warp to once it's learned, so it would 
+make sense that he be there. Once you learn it, play it (or for those who 
+learned earlier, play it now). Warp to (2,6). This is the only thing you 
+technically need the song for in the game. You will end up in a little pond 
+inside the island. A scene will occur, and a little girl fairy will give you the 
+fire and ice arrows (and then hits on you!). To switch, hit the R button while 
+the bow is drawn.
+
+Okay, I mentioned a little while ago that there were some upgrades we could go 
+get, but I said to skip them. I did for a two reasons: A) We'd need to sail 
+around the world, which is much easier to do with the help of the Ballad of 
+Gales (and without having to worry about random teleports); and, B) To get ALL 
+of them, you need the hammer, which we just got now. That being said, let's go 
+get a bunch of stuff. Teleport out of this place with the song, and choose (2,1) 
+as your landing point (the first island). 
+
+Land on the island and go see Orca. He'll ask you if you want to practice 
+swordplay, say yes. You have three hearts, you have to hit him as much as you 
+can. The trick is to lock on, hit in four-slash bursts, and USE YOUR SHIELD. 
+Don't back him into a corner, and don't use the parry attack (it does only one 
+hit, and it is safer to block than dodge). Don't try to hit him after he starts 
+a swing. If you have trouble, take it slow, just hit and run away. You need to 
+get in... 500 hits. I know, it's insane. Cut me some slack. Actually, the goal 
+is 1,000 blows, but STOP after you hit 500. You get a heart piece. Then, if you 
+wish, you can go back and shoot for the moon. If you do 4-hit bursts, he 
+counters after the 2nd set (8th hit overall) 99% of the time. If he blocks an 
+attack, he will counter 100% of the time. So be ready to use your shield. It is 
+not difficult; if you lose, it's because you get impatient. Trust me. Get 1,000 
+blows in and Orca will call you master. When you're done here, go back to King.
+
+Set the wind NW and sail to (1,2). Once you get there, take out your telescope 
+and look around the sky (slightly above the water, not like straight up). When 
+you see a flock of seagulls ("And I raaaan, I ran so far awaaaay"), sail towards 
+them. I'd give you more detailed directions, but this is one of those random 
+things. As I said when you first got it, the boomerang should always be 
+equipped. As you get close, you will be sucked into a whirlpool by a giant squid 
+with 8 eyes. Your job is to take his eyes out with your boomerang. Target 5 each 
+time, and you need to hit them each 3-4 times to close them permanently. This is 
+time sensitive, so don't be a slacker. If you take too long, he'll spit you out 
+and you need to go find him again (in another random spot in this square). Once 
+you take out all the eyes, a small glowing spot will appear where he died. 
+Approach it (don't use the sail, hold R and up on the D-stick to approach it 
+slowly), and use your grappling hook (by holding the button down until you hit 
+bottom) where you think it was. This is tedious because it disappears as you get 
+close, but you'll get it. Try playing with the camera angles to make it easier 
+to guesstimate. When you do it right, you'll pull up a treasure chest with 100 
+rupees in it. Time to move on. Warp to (4,2).
+
+Right in front of you when you land is a small island with a seashell building 
+on it. Go there, hop off King, and swim to the island (which will be shortened 
+to "Go there" from now on). Head around to the door. I also had mail in the 
+mailbox (20 rupees and 1 rupee), so get that if you do too. This is a fairy 
+island, there are several in the game. Each one gives you an upgrade of some 
+sort, and we'll hit them all. Use a bomb to blow up the planks on the door and 
+hop into the hole. This is just like where you got a bigger wallet, so run up to 
+the fairy and get more bombs (you can hold 60 now). Leave through the shining 
+light and get back on King. On this island, you might also encounter blue 
+chuchus. Treat them the same as yellow ones, stun first then attack. They have 
+an electric shock sometimes, so it's better to be safe that way.
+
+Set the wind S. When you get to square (4,1), look for the seagulls and engage 
+another squid. This one is easier because he only has four eyes. Kill him to 
+make a fairy appear. She more than doubles your magic meter, which is always 
+helpful (and necessary in this game). Now, you can sail back to (4,2), or just 
+teleport. I teleport because it is safer. Set the wind NE and go to (5,3).
+
+(5,3) has another 8-eyed squid. Kill him and take your 100 rupees. Set the wind 
+E and sail to (6,3).
+
+Use your map to get to almost the exact center of the square. There you should 
+find a raft and a submarine. Go inside the submarine, and you'll fight 3 
+bokoblins and two mice. Kill them all and you'll get a chest with another bottle 
+in it. Yay. Leave and get ready for something kinda tedious. Just outside of the 
+submarine is a raft with a bokoblin on it. I want you to do the following: lock 
+onto him, use the grappling hook to grab a joy pendant off of him, kill him 
+(that one's optional), walk in and out of the sub again, repeat. We need to get 
+at least 50 joy pendants total (you already have some, so you don't have to do 
+it 50 times, but how many you have already depends on what enemies dropped, 
+etc.; personally, I needed 20 more). If you are fairly confident in your 
+abilities, you can also steal some from the bokoblins in the sub, speeding up 
+the process. The bokoblins aren't the threat, though: the rats are. They can 
+clear out your wallet mighty fast if you don't pay attention. It's up to you, 
+though. When you are done that, get back on King. Set the wind NE again and go 
+to (7,4).
+
+Slightly to the SE of the center of the square, you'll find another fairy 
+island. I had mail when I got here, too. The first cost 201 rupees and was a 
+green map that tells me where the Triiforce maps are (more on that later). The 
+second was free and gave me 20 rupees. To open this one, you need to pound the 
+switches with the hammer. Do so and go down to get more arrows. You can also 
+grab a fairy here for your new bottle, which is a good idea. Head back to King, 
+set the wind NW, and go to (6,5).
+
+We're looking for the last 8-eyed squid here. Take him out for another hundred 
+rupees. It'll help recoup the losses from that Triforce map map. Set the wind W 
+and go to (5,5).
+
+Also slightly SE of center, you'll find a fairy island. This door is blocked by 
+a boulder. Inside is a bomb upgrade, now we can hold 99. You may be wondering 
+why anyone would ever need so many. I did at first. You'll be thankful when you 
+get into some heated naval battles. Those are a bit later, though. Head back to 
+King and warp to (6,6).
+
+When you arrive, land on the island and look along the cliff walls. Eventually, 
+you'll see a string of bomb flowers leading up to a boulder. Hit one with a fire 
+arrow to blow up the boulder and get a chest with 200 rupees in it. Go back to 
+King, set the wind N and go up a square to (6,7). Look around for the seagulls 
+and engage a squid. This one has 12 eyes. It may take a couple tries, but you 
+can kill him. Just don't dilly-dally and make sure you hit at least 5 eyes in 
+each throw. The glowing spot doesn't yield rupees this time; instead we get a 
+piece of heart. Wasn't that worth it? Warp to (4,6).
+
+Land on the island, we have several fun things to do here. Time to play with the 
+moon. Using the Song of Passing, set the time to night. Look up at the sky for 
+the moon. If it is full, stop. If not, play the song again twice to get to the 
+next day. Repeat until you have a full moon. Take a picture of it you're your 
+picto box. Make sure there are no clouds in front. Wander through the town until 
+you see a blonde girl (Mila) standing around. Talk to her, and she'll yell at 
+you. Continue up the path, and you'll see her move. Follow her. If she spots 
+you, she'll run away, so the trick is to not get spotted (if you are, enter any 
+building and leave again to get her back to the starting point). If you stay at 
+wherever she stopped last, that's usually the easiest. She'll go all around 
+town, ending up near Iceman's store (where you got the sail way back when). 
+She's trying to break into a safe. Run up to her and talk to her. She gives you 
+this huge sob story. Just choose the top option 6 times and she'll change her 
+thieving ways and give you a bottle as a reward.
+
+Now (still night) go to the red door next to where you found Mila and go inside. 
+Talk to Iceman and he'll tell you about an auction. Go to it. This is the most 
+bizarre auction ever, so listen up. What you want to do is mash the A button. 
+There is a little meter, and when it hits the top, you make a bid. Now, you want 
+to make the last bid, so here's how to do it. Iceman calls out things with 30, 
+10, and 5 seconds left. After the 30 second warning ("Time is running out, dear 
+friends"), get your meter up 1/2 of the way real quick and just leave it there 
+(don't get it up too high, because it slowly goes up on its own to discourage 
+poachers like us). After the 5 second warning ("Only 5 seconds remain!"), make 
+your bid, and make sure it is at least 20 rupees higher than the highest bid. 
+The people are all stunned (they get stars, like you whacked them with the 
+boomerang) and you've got a guaranteed victory. You can win 2 treasure maps (#38 
+and 18) and a piece of heart here, assuming you have the rupees (you should, so 
+I'll assume you do; if you don't, come back here later and you can do it then, 
+the auction runs every night). After you get those three, he sells joy pendants, 
+which are NOT worth buying.
+
+Still at night, there is a windmill in the center of town. Find that building, 
+and wander around the left side. There is a little path that leads to a ladder. 
+Climb it. Stand on the switch there, and if the wind is set N (it should still 
+be), the windmill will start turning. Climb down the ladder and go into this 
+building. Go up the stairs to the left and through the door up top. Walk up the 
+walkway until you get to the end. From here, you can jump into little cars 
+hanging from the windmill. Get into one and ride to the top (but don't get off). 
+At the top is a crazy turning thing. Shoot a fire arrow into the hole, and you 
+will light a lighthouse beacon. This will create a chest on a tiny little 
+island. Ride the car back down to the walkway, and talk to the guy here. He'll 
+give you a piece of heart. Four pieces again! Yay. Go inside and back 
+downstairs. Talk to the pirate guy (this guy is HILARIOUS) and choose the top 
+option twice. He wants to play a game of Battleship for 10 rupees. You have 24 
+shots to sink 3 squid (one each of two squares, three squares, and four squares, 
+and they were ships in the Japanese one). Win once to get a piece of heart, win 
+again to get a treasure map (#7). Beat the record of 20 bombs to win treasure 
+map #23. The only real hint I can offer is they like to put at least two of the 
+squid touching each other. Not always, but like 80% of the time. Good luck.
+
+Head over to the left side of the bomb shop. You can float to the little island 
+with your chest on it if you set the wind to S and use the leaf. It has a heart 
+piece in it.
+
+Set the time to day now. Head into town and you'll see a guy wearing purple 
+sitting on some stairs. Talk to him and he'll say "You don't understand me." 
+Talk to him again and he'll tell you to prove you understand him by showing him 
+a picture of his favorite thing. Show the moon picture we took and he'll be 
+impressed and reward you with treasure map #31. Continue up the steps and you'll 
+see two women talking to each other. Talk to them (you really just eavesdrop) 
+and they scold you. Do it again and they mention Lenzo and a mystery woman. 
+Hmm... 
+
+Talk to Iceman now (not the store part, on the other side where you first got 
+his flower), and he will reward you with the Magic Armor. I don't find it useful 
+at all, but we're going for completeness.
+
+Go back up to the walkway and hop on a windmill car. When you're on the opposite 
+side of the wheel as you started, you can jump off and onto a little balcony. 
+Inside the door here, you can find a treasure map (#29), 50 rupees in a chest, 
+and several more in the pots. Crawl through the hole between the chests and 
+you'll drop down into Lenzo's shop. Over by the door, Lenzo is chatting up the 
+lady who is outside the potion shop a lot. He'll yell at you for scaring him, 
+then take a picture of him and his "lady friend" together. Show it to the 
+gossiping women and they'll reward you with a treasure map (#24).
+
+Go now to the building to the left of Lenzo's shop. It is a school (has a 
+chalkboard hanging out front). Talk to the lady inside here (Miss Marie) twice 
+and choose the top option (twice). Go outside and talk to the little kids here 
+(specifically, the one in the hat). Choose the top option. They want to play 
+hide 'n' seek or something. Head down the path through the town and through the 
+gate. There is a tall tree here (we're near the docks). Roll into it to knock 
+down a kid. Chase him around (the roll attack is fast, keep using it) until you 
+catch him. Another kid is behind the bomb shop, where you snuck in to find the 
+pirates. Catch him too. The third kid is behind the tombstone. Lastly, head up 
+the ramp near the gravestone. Head through the arch here and turn right. Head 
+through that arch and turn left along the ledge. The last kid is behind the 
+bush. Catch him (looks like a girl, but it's a guy). Once all four are caught, 
+they give you a heart piece. Talk to the Miss Marie, choose the top option, and 
+she'll reward you with 50 rupees. When you leave, hat kid will talk to you 
+again. They need a birthday present for Miss Marie, and she loves joy pendants. 
+There is one in the tree near the bomb shop they want to give her. Roll into it 
+to get it. They talk to you some more. It's in your spoils bag, equip it and 
+give it to the Miss Marie. She'll give you 20 more rupees. Now, if you have 20 
+or more joy pendants (I told you to get 50, so you should), give those to her 
+and she'll give you a piece of paper (the deed to a cabana). That's important 
+later, but we were here already. Lastly, give her the rest of your pendants (at 
+least 30), and she will give you the Hero's Charm. This item gives you a life 
+bar indicator for enemies (Go into your menu, hit R so you are on the quest 
+screen and select it. Hit A, and it will bring up a screen, select "Equip" and 
+hit A again. If it annoys you, just de-equip it.), which can come in handy.
+
+Leave the school and go talk to the lady in the orange dress (Linda) who you 
+needed to take a picture of to get the color picto box. She'll say something, 
+then talk to her again. She'll say she needs to send a picture to her true love. 
+Take a picture of her (full body) and go look for the guy she was with the first 
+time you took her picture. He is walking around town somewhere. Show him the 
+picture and he'll ask her out on a date. Talk to him again and he'll say they're 
+going for coffee. Skip a day with the Song of Passing and go into the place 
+above Iceman's shop. You can talk to the two on their date and they reward you 
+with a heart piece. ANOTHER 4! Wooo! 
+
+Now go to the wooden stairs Linda usually stands near. Go up them and into a 
+door. A man in a top hat will yell at you (because he thinks you're a mailman... 
+Hmm...). Go over to the huge bay window and talk to Maggie, his daughter. She is 
+upset because her love, a MOBLIN, is still back at the Forsaken Fortress. She 
+gives you a letter, so go mail it. It costs 5 rupees. Skip another day with the 
+Song of Passing, and go back to Maggie's house. Quill is there, but Maggie's dad 
+is giving him a hard way to go (he's a mailman!). Quill leaves, so go to the 
+coffee shop to find him. He'll give you the letter to deliver to Maggie. Do so 
+and she'll be so happy, she gives you another heart piece. Also, if you have 20 
+skull necklaces (from moblins), give them to her father and he will give you a 
+treasure map (#2).
+
+That's it. Set the wind NW and sail to (3,7). There is a fairy island here. Hop 
+into the hole (no tricks necessary) to get an even bigger wallet (5000 rupees 
+now).
+
+Use the Ballad of Gales and go to (3,5). There is another 12-eyed squid here 
+somewhere. Set the wind whichever way you need to to get to him and kill him. 
+That's the last one. You get another heart piece for beating him. Set the wind 
+NW and sail to (2,6).
+
+To the E of center, you'll find a pair of islands. On the smaller one is another 
+trader (like we did with the flowers before). Give him your exotic flower and he 
+will give you a pinwheel. Set the wind S and go to (2,5).
+
+In the NW corner of the square, there is an island. Sailing around it is the 
+traveling salesman. Hop off of King, swim to his boat, and go inside. Buy the 
+bottle for 500 rupees. We'll get the rest later (and if you don't have 500 
+rupees, you can get the bottle later too). Sail W again to (1,5).
+
+At (1,5), there is another fairy island. Pound the switch to gain access and get 
+more arrows. Also, fill both of your new bottles with fairies. Go back to King.
+`,
+};

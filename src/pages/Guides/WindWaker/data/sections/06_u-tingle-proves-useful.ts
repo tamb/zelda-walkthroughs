@@ -1,0 +1,24 @@
+import type { GuideSection } from '../../../../components/Guide';
+
+export const u_tingle_proves_useful: GuideSection = {
+  id: '06_u-tingle-proves-useful',
+  title: 'U) TINGLE PROVES USEFUL',
+  content: `---------------------------------------------------------------
+U) TINGLE PROVES USEFUL
+---------------------------------------------------------------
+
+Start by pulling up the treasure from map #10 (200 rupees). Now land on the 
+island. You should have a LOT of money saved up. We need at least 2800 rupees 
+(well, 2786 to be exact). If you don't have it, you can go back to (6,1) and 
+play the game there. Or you could read ahead where I detail how to find more 
+rupees with treasure maps. Or go kill a lot of stuff. Whatever. But this 
+shouldn't even be an issue. Go up to Tingle and get the remaining 7 Triforce 
+maps decoded. I don't mind getting the maps. The fact that I have to pay 3200 
+rupees total to use them, that's just plain stupid. And how can Tingle read them 
+when we can't? He drew the map to his island with a FREAKING CRAYON! Maybe if 
+the fish did it, that would make sense. But Tingle?! Anyway, I'm done griping. 
+Time to hit the road again. Luckily, we don't need to go to every square this 
+time. Just a lot of them. On the bright side, you won't need to get off of King 
+at all (well, almost). We're just getting buried treasure.
+`,
+};

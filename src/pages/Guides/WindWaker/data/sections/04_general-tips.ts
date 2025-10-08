@@ -1,0 +1,69 @@
+import type { GuideSection } from '../../../../components/Guide';
+
+export const generalTips: GuideSection = {
+  id: '04_general-tips',
+  title: 'General tips/tricks',
+  content: `===============================================================================
+4.      General tips/tricks
+===============================================================================
+
+Here are some general strategies you should think of while you play the game. 
+With only one exception (boomerang fighting), I don't really go into detail on 
+any of these in the walkthru. None of these strategies are necessary to beat the 
+game, but they will make your quest a lot easier.
+
+GRAPPLING FOR FUN AND PROFIT: As you may have noticed, some enemies drop various 
+spoils, things that don't really help you directly in any way, but can prove 
+useful nonetheless (red drops from red chuchus or joy pendants from bokoblins, 
+for example). It is in your best interest to collect as many of these as you 
+can, because certain characters will barter for them (joy pendants especially, 
+as you need 20 of them to beat the game). Once you get the grappling hook, 
+however (which is rather early in the game, luckily), it becomes much easier. 
+When used on any enemy that drops a spoil, it steals that item 100% of the time 
+(the first time you use it, that is; you can't get an infinite amount from just 
+one enemy). I wouldn't suggest doing this in a huge melee, but if there are only 
+one or two enemies, go for it.
+
+BOOMERANG FIGHTING: After you get the boomerang, it should be equipped 100% of 
+the time. It is your best friend in this game. As any Zelda veteran knows, it is 
+one of the most useful items anyway, but here it really shines. Whenever you 
+encounter any enemy, with very few exceptions, your tactic should be: stun with 
+the boomerang, attack with the sword. Darknuts, for example, need to be made 
+vulnerable first (by cutting off the helmet), but they too will fall to the 
+mighty boomerang. Some enemies, like stalfos knights, require a different 
+strategy, but this is a very good general tactic.
+
+COUNTER-STRIKE: In the heat of battle, sometimes you will hear a noise and your 
+sword will glow green for a second. This is your chance to perform the parry 
+attack. Basically, you hit A and Link does a counterattack. It is generally a 
+wise move to do this, especially when fighting darknuts, but not always. If the 
+boomerang attack I described above works on what you are fighting, it is usually 
+a better attack. Also, there are other times it might not be prudent. Fighting 
+magtails comes to mind. If you just want to kill the bugs, go for it, but often 
+you need them to place on a switch. In these cases, the parry attack is too 
+powerful and the magtail will die instead of roll into a ball.
+
+CANNONBALL RUN: As you travel the high seas, you will encounter all kinds of 
+enemies. You can technically go through the game without fighting most of them 
+(though it's easier to fight than dodge), but you HAVE to fight warships at 
+least once. If you don't have bombs, you have no chance, so run away. If you do 
+have bombs (you need 3 per ship at the very least), these can be really easy 
+fights. The AI that controls the ships is very poor at close range, so I like to 
+sail right up to them and attack point-blank. Also, if you are very close, the 
+water rolling (you know, going up and down) doesn't have as great an impact as 
+it does from far away. If you get a hit, fire two shots more as fast as you can 
+to put the boat away. Also of note, if you hold R, you can actually move King 
+with the cannon still drawn. You move too slowly to be effective at dodging, or 
+even pursuit, but it is still useful at times. 
+
+GONE FISHING: Besides the warships and turrets you may encounter on the high 
+seas, there are several other enemies you will face. While the cannon works, it 
+is too slow to serve as a useful weapon. Arrows are effective too, but my weapon 
+of choice is the boomerang. It's fast and doesn't have a limited number of 
+shots. If you encounter something, lower your sail (hit A) and lock onto the 
+enemy ASAP. Gyorgs (sharks) and kargarocs (birds) are simple, they take two hits 
+each. The things that really annoy me at the seahats (huge turnip-looking 
+things). You need quick reflexes to lock on and hit them before they can get to 
+you. Sadly, there is no other tactic I can really give. Just be quick, get back 
+on King if you are knocked off, and avoid them altogether if possible.`,
+};

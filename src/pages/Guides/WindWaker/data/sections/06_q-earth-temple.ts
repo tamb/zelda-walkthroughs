@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const q_earth_temple: GuideSection = {
   id: '06_q-earth-temple',
-  title: 'Q) DUNGEON #4: EARTH TEMPLE (EARTH)',
+  title: 'Dungeon #4: Earth Temple (Earth)',
   content: `
 ---------------------------------------------------------------
 Q) DUNGEON #4: EARTH TEMPLE (EARTH)

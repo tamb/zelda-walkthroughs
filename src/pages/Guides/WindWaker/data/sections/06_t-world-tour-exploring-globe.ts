@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const t_world_tour_exploring_globe: GuideSection = {
   id: '06_t-world-tour-exploring-globe',
-  title: "T) LINK'S WORLD TOUR #1: EXPLORING THE GLOBE",
+  title: "Link's World Tour #1: Exploring the Globe",
   content: `---------------------------------------------------------------
 T) LINK'S WORLD TOUR #1: EXPLORING THE GLOBE
 ---------------------------------------------------------------

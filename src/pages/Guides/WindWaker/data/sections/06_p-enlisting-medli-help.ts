@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const p_enlisting_medli_help: GuideSection = {
   id: '06_p-enlisting-medli-help',
-  title: "P) ENLISTING MEDLI'S HELP",
+  title: "Enlisting Medli's Help",
   content: `
 ---------------------------------------------------------------
 P) ENLISTING MEDLI'S HELP

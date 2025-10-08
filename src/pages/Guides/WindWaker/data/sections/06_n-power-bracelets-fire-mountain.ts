@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const n_power_bracelets_fire_mountain: GuideSection = {
   id: '06_n-power-bracelets-fire-mountain',
-  title: 'N) POWER BRACELETS AND FIRE MOUNTAIN',
+  title: 'Power Bracelets and Fire Mountain',
   content: `
 ---------------------------------------------------------------
 N) POWER BRACELETS AND FIRE MOUNTAIN

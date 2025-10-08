@@ -22,7 +22,7 @@ export const GameCard = ({ game }: GameCardProps) => {
     <Card className="h-100">
       <Card.Header>{game.title}</Card.Header>
       <Card.Body className="d-flex flex-column">
-        <Card.Title>{game.subtitle}</Card.Title>
+        <strong>{game.subtitle}</strong>
         <Card.Text className="flex-grow-1">{game.description}</Card.Text>
         <div className="mb-3">
           <Badge bg="primary" className="me-2">

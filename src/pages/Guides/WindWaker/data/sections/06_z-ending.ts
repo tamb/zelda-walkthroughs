@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const z_ending: GuideSection = {
   id: '06_z-ending',
-  title: 'Z) ENDING',
+  title: 'Ending',
   content: `---------------------------------------------------------------
 Z) ENDING
 ---------------------------------------------------------------

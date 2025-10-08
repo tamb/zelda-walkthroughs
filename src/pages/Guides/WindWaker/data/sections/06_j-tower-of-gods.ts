@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const j_tower_of_gods: GuideSection = {
   id: '06_j-tower-of-gods',
-  title: 'J) DUNGEON #3: TOWER OF THE GODS (WATER)',
+  title: 'Dungeon #3: Tower of the Gods (Water)',
   content: `
 ---------------------------------------------------------------
 J) DUNGEON #3: TOWER OF THE GODS (WATER)

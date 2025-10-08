@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const g_forbidden_woods: GuideSection = {
   id: '06_g-forbidden-woods',
-  title: 'G) DUNGEON #2: FORBIDDEN WOODS (WOOD)',
+  title: 'Dungeon #2: Forbidden Woods (Wood)',
   content: `
 ---------------------------------------------------------------
 G) DUNGEON #2: FORBIDDEN WOODS (WOOD)

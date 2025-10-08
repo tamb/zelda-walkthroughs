@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const u_tingle_proves_useful: GuideSection = {
   id: '06_u-tingle-proves-useful',
-  title: 'U) TINGLE PROVES USEFUL',
+  title: 'Tingle Proves Useful',
   content: `---------------------------------------------------------------
 U) TINGLE PROVES USEFUL
 ---------------------------------------------------------------

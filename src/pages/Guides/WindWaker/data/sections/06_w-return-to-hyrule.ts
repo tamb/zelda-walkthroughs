@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const w_return_to_hyrule: GuideSection = {
   id: '06_w-return-to-hyrule',
-  title: 'W) RETURN TO HYRULE',
+  title: 'Return to Hyrule',
   content: `
 ---------------------------------------------------------------
 W) RETURN TO HYRULE

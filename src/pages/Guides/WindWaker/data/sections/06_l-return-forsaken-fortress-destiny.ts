@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const l_return_forsaken_fortress_destiny: GuideSection = {
   id: '06_l-return-forsaken-fortress-destiny',
-  title: 'L) RETURN TO THE FORSAKEN FORTRESS AND A DESTINY REVEALED',
+  title: 'Return to the Forsaken Fortress and a Destiny Revealed',
   content: `
 ---------------------------------------------------------------
  L) RETURN TO THE FORSAKEN FORTRESS AND A DESTINY REVEALED

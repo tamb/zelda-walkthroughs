@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const v_world_tour_treasure_triforce: GuideSection = {
   id: '06_v-world-tour-treasure-triforce',
-  title: "V) LINK'S WORLD TOUR #2: TREASURE AND TRIFORCE",
+  title: "Link's World Tour #2: Treasure and Triforce",
   content: `---------------------------------------------------------------
 V) LINK'S WORLD TOUR #2: TREASURE AND TRIFORCE
 ---------------------------------------------------------------

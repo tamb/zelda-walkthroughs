@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const x_final_dungeon_ganons_tower: GuideSection = {
   id: '06_x-final-dungeon-ganons-tower',
-  title: "X) FINAL DUNGEON: GANON'S TOWER",
+  title: "Final Dungeon: Ganon's Tower",
   content: `
 ---------------------------------------------------------------
 X) FINAL DUNGEON: GANON'S TOWER

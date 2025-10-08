@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const h_return_windfall_pirate_fun: GuideSection = {
   id: '06_h-return-windfall-pirate-fun',
-  title: 'H) RETURN TO WINDFALL ISLAND AND MORE PIRATE FUN',
+  title: 'Return to Windfall Island and More Pirate Fun',
   content: `
 ---------------------------------------------------------------
 H) RETURN TO WINDFALL ISLAND AND MORE PIRATE FUN

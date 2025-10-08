@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const r_makar_lends_hand: GuideSection = {
   id: '06_r-makar-lends-hand',
-  title: 'R) MAKAR LENDS A HAND',
+  title: 'Makar Lends a Hand',
   content: `
 ---------------------------------------------------------------
 R) MAKAR LENDS A HAND

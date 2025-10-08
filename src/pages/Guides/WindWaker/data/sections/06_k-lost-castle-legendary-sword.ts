@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const k_lost_castle_legendary_sword: GuideSection = {
   id: '06_k-lost-castle-legendary-sword',
-  title: 'K) A LOST CASTLE AND A LEGENDARY SWORD',
+  title: 'A Lost Castle and a Legendary Sword',
   content: `
 ---------------------------------------------------------------
 K) A LOST CASTLE AND A LEGENDARY SWORD

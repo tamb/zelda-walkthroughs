@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const m_upgrading_collection_run: GuideSection = {
   id: '06_m-upgrading-collection-run',
-  title: 'M) UPGRADING AND COLLECTION RUN',
+  title: 'Upgrading and Collection Run',
   content: `
 ---------------------------------------------------------------
 M) UPGRADING AND COLLECTION RUN

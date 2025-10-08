@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const c_windfall_island: GuideSection = {
   id: '06_c-windfall-island',
-  title: 'C) WINDFALL ISLAND AND THE "QUEST" FOR A SAIL',
+  title: 'Windfall Island and the "Quest" for a Sail',
   content: `
 ---------------------------------------------------------------
 C) WINDFALL ISLAND AND THE "QUEST" FOR A SAIL

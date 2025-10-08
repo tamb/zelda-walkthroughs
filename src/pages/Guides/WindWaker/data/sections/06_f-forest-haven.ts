@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const f_forest_haven: GuideSection = {
   id: '06_f-forest-haven',
-  title: 'F) FOREST HAVEN',
+  title: 'Forest Haven',
   content: `
 ---------------------------------------------------------------
 F) FOREST HAVEN

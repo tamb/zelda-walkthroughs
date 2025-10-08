@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const o_iron_boots_ice_ring_isle: GuideSection = {
   id: '06_o-iron-boots-ice-ring-isle',
-  title: 'O) IRON BOOTS AND ICE ISLAND',
+  title: 'Iron Boots and Ice Island',
   content: `
 ---------------------------------------------------------------
 O) IRON BOOTS AND ICE ISLAND

@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const e_dragon_roost_cavern: GuideSection = {
   id: '06_e-dragon-roost-cavern',
-  title: 'E) DUNGEON #1: DRAGON ROOST CAVERN (FIRE)',
+  title: 'Dungeon #1: Dragon Roost Cavern (Fire)',
   content: `
 
 ---------------------------------------------------------------

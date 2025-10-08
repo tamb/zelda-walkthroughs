@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const d_rito_dragon_roost: GuideSection = {
   id: '06_d-rito-dragon-roost',
-  title: 'D) THE RITO TRIBE AND DRAGON ROOST ISLAND',
+  title: 'The Rito Tribe and Dragon Roost Island',
   content: `
 ---------------------------------------------------------------
 D) THE RITO TRIBE AND DRAGON ROOST ISLAND

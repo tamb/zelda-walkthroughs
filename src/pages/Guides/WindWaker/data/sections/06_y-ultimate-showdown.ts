@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const y_ultimate_showdown: GuideSection = {
   id: '06_y-ultimate-showdown',
-  title: 'Y) THE ULTIMATE SHOWDOWN',
+  title: 'The Ultimate Showdown',
   content: `---------------------------------------------------------------
 Y) THE ULTIMATE SHOWDOWN
 ---------------------------------------------------------------

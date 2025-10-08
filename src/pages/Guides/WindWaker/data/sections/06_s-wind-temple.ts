@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const s_wind_temple: GuideSection = {
   id: '06_s-wind-temple',
-  title: 'S) DUNGEON #5: WIND TEMPLE (WIND)',
+  title: 'Dungeon #5: Wind Temple (Wind)',
   content: `
 ---------------------------------------------------------------
 S) DUNGEON #5: WIND TEMPLE (WIND)

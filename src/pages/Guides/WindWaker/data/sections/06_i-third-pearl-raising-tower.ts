@@ -2,7 +2,7 @@ import type { GuideSection } from '../../../../components/Guide';
 
 export const i_third_pearl_raising_tower: GuideSection = {
   id: '06_i-third-pearl-raising-tower',
-  title: 'I) GETTING THE THIRD PEARL AND RAISING THE TOWER',
+  title: 'Getting the Third Pearl and Raising the Tower',
   content: `
 ---------------------------------------------------------------
 I) GETTING THE THIRD PEARL AND RAISING THE TOWER

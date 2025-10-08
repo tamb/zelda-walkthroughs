@@ -10,6 +10,8 @@ export default defineConfig({
   plugins: [pluginReact(), pluginSass()],
   html: {
     template: './public/index.html',
+    inject: 'body',
+    scriptLoading: 'defer',
   },
   output: {
     // Set asset prefix for GitHub Pages deployment

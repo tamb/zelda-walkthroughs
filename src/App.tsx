@@ -1,11 +1,18 @@
 import { HashRouter, Route, Routes } from 'react-router-dom';
+import { useEffect } from 'react';
 import './App.css';
 import { Navbar } from './components/Navbar';
 import { GamePage } from './pages/GamePage';
 import { HomePage } from './pages/HomePage';
 import InstallPrompt from './components/InstallPrompt';
+import { setupChunkErrorHandling } from './utils/chunkErrorHandler';
 
 const App = () => {
+  useEffect(() => {
+    // Set up chunk error handling for GitHub Pages
+    setupChunkErrorHandling();
+  }, []);
+
   return (
     <HashRouter>
       <Navbar />

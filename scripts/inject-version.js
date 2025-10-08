@@ -26,12 +26,15 @@ function injectVersionIntoHTML() {
     // Update the title to include version
     const titleRegex = /<title>(.*?)<\/title>/;
     const titleMatch = htmlContent.match(titleRegex);
-    
+
     if (titleMatch) {
       const currentTitle = titleMatch[1];
       const newTitle = `${currentTitle} <small class="text-muted">v${version}</small>`;
-      htmlContent = htmlContent.replace(titleRegex, `<title>${newTitle}</title>`);
-      
+      htmlContent = htmlContent.replace(
+        titleRegex,
+        `<title>${newTitle}</title>`,
+      );
+
       // Write the updated HTML back
       writeFileSync(htmlPath, htmlContent, 'utf8');
       console.log(`✅ Version ${version} injected into title`);

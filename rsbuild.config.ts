@@ -13,9 +13,20 @@ export default defineConfig({
     inject: 'body',
     scriptLoading: 'defer',
   },
+  // Configure chunk loading for GitHub Pages
+  tools: {
+    rspack: {
+      output: {
+        // Ensure chunks are loaded with correct paths
+        chunkLoadingGlobal: 'webpackChunkzeldaWalkthroughs',
+      },
+    },
+  },
   output: {
     // Set asset prefix for GitHub Pages deployment
     assetPrefix: isGitHubPages ? `/${repositoryName}/` : '/',
+    // Ensure chunk loading works correctly with GitHub Pages
+    publicPath: isGitHubPages ? `/${repositoryName}/` : '/',
     copy: [
       {
         from: './public/manifest.json',

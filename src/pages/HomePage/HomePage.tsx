@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
-import { Header } from '../../components/Header';
 import { GameGrid } from '../../components/GameGrid';
+import { Header } from '../../components/Header';
 import { zeldaGames } from '../../data/zeldaGames';
 
 export const HomePage = () => {

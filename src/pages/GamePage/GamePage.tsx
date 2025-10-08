@@ -1,8 +1,8 @@
-import { useParams, Link } from 'react-router-dom';
-import { Container, Breadcrumb, Card } from 'react-bootstrap';
-import { zeldaGames } from '../../data/zeldaGames';
+import { Breadcrumb, Card, Container } from 'react-bootstrap';
+import { Link, useParams } from 'react-router-dom';
 import { Guide } from '../../components/Guide';
-import { windWakerGuide } from '../../data/windWakerGuide';
+import { zeldaGames } from '../../data/zeldaGames';
+import { windWakerGuideSections } from '../Guides/WindWaker/data';
 
 export const GamePage = () => {
   const { gameSlug } = useParams<{ gameSlug: string }>();
@@ -40,7 +40,7 @@ export const GamePage = () => {
             <Breadcrumb.Item active>{game.title}</Breadcrumb.Item>
           </Breadcrumb>
         </Container>
-        <Guide gameTitle={game.title} sections={windWakerGuide} />
+        <Guide gameTitle={game.title} sections={windWakerGuideSections} />
       </>
     );
   }

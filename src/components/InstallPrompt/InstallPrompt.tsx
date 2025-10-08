@@ -105,9 +105,16 @@ const InstallPrompt: React.FC = () => {
         <Alert variant="info" className="mb-3">
           <h6 className="mb-2">📱 Install on Android</h6>
           <ol className="mb-0 small">
-            <li>Tap the <strong>three dots menu</strong> (⋮) in your browser</li>
-            <li>Select <strong>"Add to Home screen"</strong> or <strong>"Install app"</strong></li>
-            <li>Tap <strong>"Add"</strong> to confirm</li>
+            <li>
+              Tap the <strong>three dots menu</strong> (⋮) in your browser
+            </li>
+            <li>
+              Select <strong>"Add to Home screen"</strong> or{' '}
+              <strong>"Install app"</strong>
+            </li>
+            <li>
+              Tap <strong>"Add"</strong> to confirm
+            </li>
           </ol>
         </Alert>
         <div className="d-flex gap-2">

@@ -11,7 +11,7 @@ export const clearAppCache = async (): Promise<void> => {
     if ('caches' in window) {
       const cacheNames = await caches.keys();
       await Promise.all(
-        cacheNames.map(cacheName => caches.delete(cacheName))
+        cacheNames.map((cacheName) => caches.delete(cacheName)),
       );
       console.log('✅ Service worker cache cleared');
     }
@@ -24,16 +24,14 @@ export const clearAppCache = async (): Promise<void> => {
         if (registration.waiting) {
           registration.waiting.postMessage({ type: 'SKIP_WAITING' });
         }
-        
+
         // Update the service worker
         await registration.update();
         console.log('✅ Service worker updated');
       } else {
         // Fallback: unregister and re-register if no registration exists
         const registrations = await navigator.serviceWorker.getRegistrations();
-        await Promise.all(
-          registrations.map(reg => reg.unregister())
-        );
+        await Promise.all(registrations.map((reg) => reg.unregister()));
         await navigator.serviceWorker.register('/zelda-walkthroughs/sw.js');
         console.log('✅ Service worker re-registered');
       }
@@ -51,9 +49,12 @@ export const clearAppCache = async (): Promise<void> => {
  * Checks if the app is running as a PWA (installed)
  */
 export const isPWA = (): boolean => {
-  return window.matchMedia('(display-mode: standalone)').matches ||
-         (window.navigator as Navigator & { standalone?: boolean }).standalone === true ||
-         document.referrer.includes('android-app://');
+  return (
+    window.matchMedia('(display-mode: standalone)').matches ||
+    (window.navigator as Navigator & { standalone?: boolean }).standalone ===
+      true ||
+    document.referrer.includes('android-app://')
+  );
 };
 
 /**
@@ -62,7 +63,7 @@ export const isPWA = (): boolean => {
 export const confirmCacheRefresh = (): Promise<boolean> => {
   return new Promise((resolve) => {
     const confirmed = window.confirm(
-      'This will refresh the app and download the latest version. Your progress and settings will be preserved. Continue?'
+      'This will refresh the app and download the latest version. Your progress and settings will be preserved. Continue?',
     );
     resolve(confirmed);
   });

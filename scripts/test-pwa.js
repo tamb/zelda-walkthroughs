@@ -2,7 +2,7 @@
 
 /**
  * PWA Installation Test Script
- * 
+ *
  * This script helps verify that your PWA meets the installation criteria.
  * Run this after deploying to GitHub Pages to check for common issues.
  */
@@ -49,7 +49,7 @@ console.log('   2. Look for the install button in the address bar');
 console.log('   3. Or check the three-dot menu for "Install app"');
 console.log('   4. On mobile, you should see an "Add to Home Screen" prompt');
 
-console.log('\n🔧 If installation still doesn\'t work:');
+console.log("\n🔧 If installation still doesn't work:");
 console.log('   - Check browser console for errors');
 console.log('   - Verify all asset paths are correct');
 console.log('   - Ensure service worker is properly registered');

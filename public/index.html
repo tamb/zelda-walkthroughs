@@ -44,6 +44,17 @@
         navigator.serviceWorker.register('/zelda-walkthroughs/sw.js')
           .then((registration) => {
             console.log('SW registered: ', registration);
+            
+            // Check for updates
+            registration.addEventListener('updatefound', () => {
+              const newWorker = registration.installing;
+              newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  // New content is available, reload the page
+                  window.location.reload();
+                }
+              });
+            });
           })
           .catch((registrationError) => {
             console.log('SW registration failed: ', registrationError);

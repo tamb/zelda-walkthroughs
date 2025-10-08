@@ -1,7 +1,11 @@
 import { useId, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Navbar as BSNavbar, Nav, Button } from 'react-bootstrap';
-import { clearAppCache, confirmCacheRefresh, isPWA } from '../../utils/cacheUtils';
+import {
+  clearAppCache,
+  confirmCacheRefresh,
+  isPWA,
+} from '../../utils/cacheUtils';
 
 export const Navbar = () => {
   const navbarId = useId();
@@ -47,13 +51,14 @@ export const Navbar = () => {
                 >
                   {isRefreshing ? (
                     <>
-                      <span className="spinner-border spinner-border-sm me-1" aria-hidden="true"></span>
+                      <span
+                        className="spinner-border spinner-border-sm me-1"
+                        aria-hidden="true"
+                      ></span>
                       Refreshing...
                     </>
                   ) : (
-                    <>
-                      🔄 Refresh
-                    </>
+                    <>🔄 Refresh</>
                   )}
                 </Button>
               </Nav.Item>

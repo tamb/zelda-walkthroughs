@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zelda Walkthroughs v1.0.0-alpha.1</title>
+  <title>Zelda Walkthroughs</title>
   
   <!-- PWA Meta Tags -->
   <meta name="description" content="Interactive walkthroughs and guides for The Legend of Zelda games">
@@ -21,14 +21,14 @@
   <meta name="mobile-web-app-title" content="Zelda Guides">
   
   <!-- Manifest -->
-  <link rel="manifest" href="/zelda-walkthroughs/manifest.json">
+  <link rel="manifest" href="manifest.json">
   
   <!-- Icons (PNG only for better mobile compatibility) -->
-  <link rel="icon" type="image/png" sizes="96x96" href="/zelda-walkthroughs/icons/icon-96x96.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/zelda-walkthroughs/icons/icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="/zelda-walkthroughs/icons/icon-512x512.png">
-  <link rel="apple-touch-icon" href="/zelda-walkthroughs/icons/icon-192x192.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/zelda-walkthroughs/icons/icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="icons/icon-96x96.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512x512.png">
+  <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-192x192.png">
   
   <!-- Preload critical resources - URLs will be updated by build process -->
   <!-- Note: Preload URLs are managed by the build system -->
@@ -38,9 +38,9 @@
   
   <!-- Service Worker Registration -->
   <script>
-    if ('serviceWorker' in navigator) {
+    if ('serviceWorker' in navigator && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/zelda-walkthroughs/sw.js')
+        navigator.serviceWorker.register('sw.js')
           .then((registration) => {
             console.log('SW registered: ', registration);
             
@@ -61,5 +61,5 @@
       });
     }
   </script>
-<script defer src="/zelda-walkthroughs/static/js/lib-react.bf1119b1.js"></script><script defer src="/zelda-walkthroughs/static/js/lib-router.e791f7dc.js"></script><script defer src="/zelda-walkthroughs/static/js/452.1878c8df.js"></script><script defer src="/zelda-walkthroughs/static/js/index.d8e63e9d.js"></script></body>
+<script defer src="/zelda-walkthroughs/static/js/lib-react.bf1119b1.js"></script><script defer src="/zelda-walkthroughs/static/js/lib-router.e791f7dc.js"></script><script defer src="/zelda-walkthroughs/static/js/452.1878c8df.js"></script><script defer src="/zelda-walkthroughs/static/js/index.80c5d9fe.js"></script></body>
 </html>

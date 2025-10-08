@@ -20,6 +20,11 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="mobile-web-app-title" content="Zelda Guides">
   
+  <!-- Brave Browser PWA Meta Tags -->
+  <meta name="brave-browser" content="true">
+  <meta name="brave-pwa" content="true">
+  <meta name="pwa-installable" content="true">
+  
   <!-- Manifest -->
   <link rel="manifest" href="/zelda-walkthroughs/manifest.json">
   
@@ -38,9 +43,11 @@
   
   <!-- Service Worker Registration -->
   <script>
-    if ('serviceWorker' in navigator && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+    if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/zelda-walkthroughs/sw.js')
+        navigator.serviceWorker.register('/zelda-walkthroughs/sw.js', {
+          scope: '/zelda-walkthroughs/'
+        })
           .then((registration) => {
             console.log('SW registered: ', registration);
             
@@ -54,6 +61,14 @@
                 }
               });
             });
+            
+            // Listen for messages from service worker
+            navigator.serviceWorker.addEventListener('message', (event) => {
+              if (event.data && event.data.type === 'SW_UPDATED') {
+                console.log('Service worker updated:', event.data.version);
+                // Optionally show a notification to the user
+              }
+            });
           })
           .catch((registrationError) => {
             console.log('SW registration failed: ', registrationError);
@@ -61,5 +76,5 @@
       });
     }
   </script>
-<script defer src="/zelda-walkthroughs/static/js/lib-react.bf1119b1.js"></script><script defer src="/zelda-walkthroughs/static/js/lib-router.e791f7dc.js"></script><script defer src="/zelda-walkthroughs/static/js/452.1878c8df.js"></script><script defer src="/zelda-walkthroughs/static/js/index.73664191.js"></script></body>
+<script defer src="/zelda-walkthroughs/static/js/lib-react.bf1119b1.js"></script><script defer src="/zelda-walkthroughs/static/js/lib-router.e791f7dc.js"></script><script defer src="/zelda-walkthroughs/static/js/452.1878c8df.js"></script><script defer src="/zelda-walkthroughs/static/js/index.586ed3b2.js"></script></body>
 </html>

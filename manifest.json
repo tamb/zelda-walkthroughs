@@ -2,8 +2,10 @@
   "name": "Zelda Walkthroughs",
   "short_name": "Zelda Guides",
   "description": "Interactive walkthroughs and guides for The Legend of Zelda games",
+  "id": "zelda-walkthroughs-pwa",
   "start_url": "/zelda-walkthroughs/",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#1a1a1a",
   "theme_color": "#2c5f2d",
   "scope": "/zelda-walkthroughs/",
@@ -34,5 +36,10 @@
     }
   ],
   "categories": ["games", "entertainment"],
-  "lang": "en"
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
 }

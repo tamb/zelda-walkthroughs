@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#1a1a1a" stroke="#2c5f2d" stroke-width="16"/>
+  
+  <!-- Simple golden triforce -->
+  <path d="M 256 160 L 340 320 L 172 320 Z" fill="#FFD700" stroke="#B8860B" stroke-width="8"/>
+  
+  <!-- Top triangle -->
+  <path d="M 256 160 L 298 240 L 214 240 Z" fill="#FFD700" stroke="#B8860B" stroke-width="6"/>
+  
+  <!-- Bottom left triangle -->
+  <path d="M 214 240 L 256 320 L 172 320 Z" fill="#FFD700" stroke="#B8860B" stroke-width="6"/>
+  
+  <!-- Bottom right triangle -->
+  <path d="M 298 240 L 340 320 L 256 320 Z" fill="#FFD700" stroke="#B8860B" stroke-width="6"/>
+</svg>

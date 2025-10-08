@@ -12,6 +12,7 @@
     "deploy:script": "node scripts/deploy.js",
     "dev": "rsbuild dev --open",
     "format": "biome format --write",
+    "generate:icons": "node scripts/svg-to-png.js",
     "preview": "rsbuild preview"
   },
   "dependencies": {
@@ -31,6 +32,7 @@
     "@types/react-dom": "^19.1.9",
     "gh-pages": "^6.3.0",
     "sass": "^1.93.2",
+    "sharp": "^0.34.4",
     "typescript": "^5.9.2"
   }
 }

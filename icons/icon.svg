@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c5f2d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="64" fill="url(#bg)"/>
+  
+  <!-- Triforce -->
+  <g transform="translate(256, 256)">
+    <!-- Top triangle -->
+    <path d="M 0,-120 L 104,60 L -104,60 Z" fill="#FFD700" stroke="#FFA500" stroke-width="4"/>
+    
+    <!-- Bottom left triangle -->
+    <path d="M -104,60 L 0,180 L -208,180 Z" fill="#FFD700" stroke="#FFA500" stroke-width="4"/>
+    
+    <!-- Bottom right triangle -->
+    <path d="M 104,60 L 208,180 L 0,180 Z" fill="#FFD700" stroke="#FFA500" stroke-width="4"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="128" cy="128" r="8" fill="#FFD700" opacity="0.6"/>
+  <circle cx="384" cy="128" r="8" fill="#FFD700" opacity="0.6"/>
+  <circle cx="128" cy="384" r="8" fill="#FFD700" opacity="0.6"/>
+  <circle cx="384" cy="384" r="8" fill="#FFD700" opacity="0.6"/>
+</svg>

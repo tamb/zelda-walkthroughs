@@ -1,0 +1,25 @@
+
+    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#2c5f2d;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+        </linearGradient>
+      </defs>
+      
+      <!-- Background -->
+      <rect width="16" height="16" rx="2" fill="url(#bg)"/>
+      
+      <!-- Triforce -->
+      <g transform="translate(8, 8)">
+        <!-- Top triangle -->
+        <path d="M 0,-3.68 L 3.2,1.92 L -3.2,1.92 Z" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+        
+        <!-- Bottom left triangle -->
+        <path d="M -3.2,1.92 L 0,5.6 L -6.4,5.6 Z" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+        
+        <!-- Bottom right triangle -->
+        <path d="M 3.2,1.92 L 6.4,5.6 L 0,5.6 Z" fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+      </g>
+    </svg>
+  

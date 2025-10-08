@@ -7,7 +7,8 @@ interface BeforeInstallPromptEvent extends Event {
 }
 
 const InstallPrompt: React.FC = () => {
-  const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
+  const [deferredPrompt, setDeferredPrompt] =
+    useState<BeforeInstallPromptEvent | null>(null);
   const [showInstallPrompt, setShowInstallPrompt] = useState(false);
 
   useEffect(() => {
@@ -29,7 +30,10 @@ const InstallPrompt: React.FC = () => {
     window.addEventListener('appinstalled', handleAppInstalled);
 
     return () => {
-      window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+      window.removeEventListener(
+        'beforeinstallprompt',
+        handleBeforeInstallPrompt,
+      );
       window.removeEventListener('appinstalled', handleAppInstalled);
     };
   }, []);
@@ -73,11 +77,7 @@ const InstallPrompt: React.FC = () => {
           >
             Not now
           </Button>
-          <Button
-            variant="success"
-            size="sm"
-            onClick={handleInstallClick}
-          >
+          <Button variant="success" size="sm" onClick={handleInstallClick}>
             Install
           </Button>
         </div>

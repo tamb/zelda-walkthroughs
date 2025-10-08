@@ -305,7 +305,7 @@ export const Guide = ({ gameTitle, sections }: GuideProps) => {
                     🗑️ Clear Progress
                   </Button>
                 </div>
-                <p className="text-muted mt-3 mb-0">
+                <p className="text-muted text-light mt-3 mb-0">
                   Download your progress as a backup, upload a previous save, or
                   reset everything
                 </p>

@@ -27,6 +27,10 @@ export default defineConfig({
         from: './public/icons',
         to: './icons',
       },
+      {
+        from: './.nojekyll',
+        to: './.nojekyll',
+      },
     ],
   },
 });

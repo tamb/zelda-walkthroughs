@@ -1,4 +1,4 @@
-import type { GuideSection } from '../../../../components/Guide';
+import type { GuideSection } from '../../../../../components/Guide';
 
 export const copyright: GuideSection = {
   id: '11_copyright',
@@ -20,5 +20,19 @@ All trademarks and copyrights contained in this document are owned by their
 respective trademark and copyright holders.
 
 Copyright 2003 by Matthew Murray, All Rights Reserved.
-Restore Page`,
+Restore Page
+
+NOTE:
+The original guide for this is here:
+https://gamefaqs.gamespot.com/gamecube/469050-the-legend-of-zelda-the-wind-waker/faqs/22209
+
+I (the creator of this web app) have no affiliation with GameSpot or GameFAQs.
+I tried reaching out to Matt Murray (the original creator of the guide) 
+to get permission to use it, but he never responded and his email address is no longer valid.
+I am not making any money from this guide and it is not a commercial product.
+This is a labor of love and a way to give back to the Zelda community.
+If you are the original creator of the guide and would like me to remove it, please contact me.
+
+tsapdeveloper@gmail.com
+`,
 };

@@ -2,21 +2,37 @@
   "name": "Zelda Walkthroughs",
   "short_name": "Zelda Guides",
   "description": "Interactive walkthroughs and guides for The Legend of Zelda games",
-  "start_url": ".",
+  "start_url": "/zelda-walkthroughs/",
   "display": "standalone",
   "background_color": "#1a1a1a",
   "theme_color": "#2c5f2d",
-  "scope": ".",
+  "scope": "/zelda-walkthroughs/",
   "icons": [
     {
-      "src": "icons/icon-192x192.png",
+      "src": "/zelda-walkthroughs/icons/icon-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "icons/icon-512x512.png",
+      "src": "/zelda-walkthroughs/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/zelda-walkthroughs/icons/icon-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/zelda-walkthroughs/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
-  ]
+  ],
+  "categories": ["games", "entertainment"],
+  "lang": "en"
 }

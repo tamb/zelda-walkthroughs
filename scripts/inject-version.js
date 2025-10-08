@@ -29,7 +29,9 @@ function injectVersionIntoHTML() {
 
     if (titleMatch) {
       const currentTitle = titleMatch[1];
-      const newTitle = `${currentTitle} <small class="text-muted">v${version}</small>`;
+      // Remove any existing version from title first
+      const cleanTitle = currentTitle.replace(/\s+v\d+\.\d+\.\d+.*$/, '');
+      const newTitle = `${cleanTitle} v${version}`;
       htmlContent = htmlContent.replace(
         titleRegex,
         `<title>${newTitle}</title>`,

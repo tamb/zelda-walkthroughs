@@ -2,11 +2,10 @@ import { useId, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Navbar as BSNavbar, Nav, Button } from 'react-bootstrap';
 import {
-  clearAppCache,
-  confirmCacheRefresh,
-  isPWA,
+  forceFreshLoad,
+  getServiceWorkerInfo,
 } from '../../utils/cacheUtils';
-import { version } from '../../../package.json';
+import { getVersionInfo } from '../../utils/versionUtils';
 
 export const Navbar = () => {
   const navbarId = useId();
@@ -14,11 +13,13 @@ export const Navbar = () => {
 
   const handleRefresh = async () => {
     try {
-      const confirmed = await confirmCacheRefresh();
+      const confirmed = window.confirm(
+        'This will clear all cached data and reload the app with the latest version. Continue?'
+      );
       if (!confirmed) return;
 
       setIsRefreshing(true);
-      await clearAppCache();
+      await forceFreshLoad();
     } catch (error) {
       console.error('Failed to refresh app:', error);
       alert('Failed to refresh the app. Please try again.');
@@ -31,7 +32,7 @@ export const Navbar = () => {
       <Container>
         <BSNavbar.Brand as={Link} to="/" className="triforce-accent">
           Zelda Walkthroughs
-          <small className="text-muted ms-1">{version}</small>
+          <small className="text-muted ms-1">{getVersionInfo().display}</small>
         </BSNavbar.Brand>
         <BSNavbar.Toggle aria-controls={navbarId} />
         <BSNavbar.Collapse id={navbarId}>
@@ -41,30 +42,28 @@ export const Navbar = () => {
             </Nav.Link>
             <Nav.Link href="#games">Games</Nav.Link>
             <Nav.Link href="#guides">Guides</Nav.Link>
-            {isPWA() && (
-              <Nav.Item className="d-flex align-items-center">
-                <Button
-                  variant="outline-light"
-                  size="sm"
-                  onClick={handleRefresh}
-                  disabled={isRefreshing}
-                  className="ms-2"
-                  title="Refresh app and download updates"
-                >
-                  {isRefreshing ? (
-                    <>
-                      <span
-                        className="spinner-border spinner-border-sm me-1"
-                        aria-hidden="true"
-                      ></span>
-                      Refreshing...
-                    </>
-                  ) : (
-                    <>🔄 Refresh</>
-                  )}
-                </Button>
-              </Nav.Item>
-            )}
+            <Nav.Item className="d-flex align-items-center">
+              <Button
+                variant="outline-warning"
+                size="sm"
+                onClick={handleRefresh}
+                disabled={isRefreshing}
+                className="ms-2"
+                title="Clear cache and force refresh to latest version"
+              >
+                {isRefreshing ? (
+                  <>
+                    <span
+                      className="spinner-border spinner-border-sm me-1"
+                      aria-hidden="true"
+                    ></span>
+                    Clearing Cache...
+                  </>
+                ) : (
+                  <>🔄 Clear Cache</>
+                )}
+              </Button>
+            </Nav.Item>
           </Nav>
         </BSNavbar.Collapse>
       </Container>

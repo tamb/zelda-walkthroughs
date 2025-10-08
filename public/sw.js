@@ -1,5 +1,5 @@
-const CACHE_NAME = 'zelda-walkthroughs-v2';
-const CACHE_VERSION = '1.0.0';
+const CACHE_NAME = 'zelda-walkthroughs-v3-alpha2';
+const CACHE_VERSION = '1.0.0-alpha.2';
 
 // Get the asset prefix from the current location
 const getAssetPrefix = () => {
@@ -23,10 +23,10 @@ const urlsToCache = [
 
 // Install event - cache resources
 self.addEventListener('install', (event) => {
-  console.log('Service Worker installing...');
+  console.log('Service Worker installing...', CACHE_VERSION);
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      console.log('Opened cache');
+      console.log('Opened cache', CACHE_NAME);
       // Cache core resources first
       return cache.addAll(urlsToCache).catch((error) => {
         console.warn('Failed to cache some resources:', error);
@@ -35,44 +35,42 @@ self.addEventListener('install', (event) => {
       });
     }),
   );
-  // Only skip waiting in production
-  if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-    self.skipWaiting();
-  }
+  // Force skip waiting to ensure new version takes control immediately
+  self.skipWaiting();
 });
 
-// Fetch event - serve from cache when offline
+// Fetch event - network first strategy for fresh content
 self.addEventListener('fetch', (event) => {
   event.respondWith(
-    caches.match(event.request).then((response) => {
-      if (response) {
-        return response;
-      }
+    fetch(event.request)
+      .then((response) => {
+        // Don't cache non-successful responses
+        if (
+          !response ||
+          response.status !== 200 ||
+          response.type !== 'basic'
+        ) {
+          return response;
+        }
 
-      // If not in cache, fetch from network and cache it
-      return fetch(event.request)
-        .then((response) => {
-          // Don't cache non-successful responses
-          if (
-            !response ||
-            response.status !== 200 ||
-            response.type !== 'basic'
-          ) {
+        // Clone the response
+        const responseToCache = response.clone();
+
+        // Cache the response for future use
+        caches.open(CACHE_NAME).then((cache) => {
+          cache.put(event.request, responseToCache);
+        });
+
+        return response;
+      })
+      .catch(() => {
+        // If network fails, try cache as fallback
+        return caches.match(event.request).then((response) => {
+          if (response) {
             return response;
           }
-
-          // Clone the response
-          const responseToCache = response.clone();
-
-          // Cache the response for future use
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseToCache);
-          });
-
-          return response;
-        })
-        .catch(() => {
-          // If network fails and no cache, return offline page or fallback
+          
+          // If no cache and network fails, return offline page or fallback
           if (event.request.destination === 'document') {
             return caches.match(`${assetPrefix}/`);
           }
@@ -81,17 +79,18 @@ self.addEventListener('fetch', (event) => {
             statusText: 'Service Unavailable',
           });
         });
-    }),
+      })
   );
 });
 
 // Activate event - clean up old caches
 self.addEventListener('activate', (event) => {
-  console.log('Service Worker activating...');
+  console.log('Service Worker activating...', CACHE_VERSION);
   event.waitUntil(
     caches
       .keys()
       .then((cacheNames) => {
+        console.log('Found caches:', cacheNames);
         return Promise.all(
           cacheNames.map((cacheName) => {
             if (cacheName !== CACHE_NAME) {
@@ -102,19 +101,20 @@ self.addEventListener('activate', (event) => {
         );
       })
       .then(() => {
-        // Clear all caches to force fresh load
-        return caches.keys().then((cacheNames) => {
-          return Promise.all(
-            cacheNames.map((cacheName) => {
-              console.log('Clearing cache:', cacheName);
-              return caches.delete(cacheName);
-            }),
-          );
-        });
-      })
-      .then(() => {
+        console.log('Cache cleanup complete, taking control...');
         // Take control of all clients immediately
         return self.clients.claim();
+      })
+      .then(() => {
+        // Send message to all clients to reload
+        return self.clients.matchAll().then((clients) => {
+          clients.forEach((client) => {
+            client.postMessage({
+              type: 'SW_UPDATED',
+              version: CACHE_VERSION,
+            });
+          });
+        });
       }),
   );
 });

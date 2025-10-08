@@ -1,70 +1,94 @@
 /**
- * Cache utility functions for PWA refresh functionality
+ * Cache utilities for PWA cache management
  */
 
 /**
- * Clears the service worker cache while preserving IndexedDB/localforage data
+ * Clear all caches and force reload
  */
-export const clearAppCache = async (): Promise<void> => {
-  try {
-    // Clear all caches
-    if ('caches' in window) {
-      const cacheNames = await caches.keys();
-      await Promise.all(
-        cacheNames.map((cacheName) => caches.delete(cacheName)),
-      );
-      console.log('✅ Service worker cache cleared');
-    }
-
-    // Force service worker update
-    if ('serviceWorker' in navigator) {
-      const registration = await navigator.serviceWorker.getRegistration();
-      if (registration) {
-        // Send message to service worker to skip waiting
-        if (registration.waiting) {
-          registration.waiting.postMessage({ type: 'SKIP_WAITING' });
-        }
-
-        // Update the service worker
-        await registration.update();
-        console.log('✅ Service worker updated');
-      } else {
-        // Fallback: unregister and re-register if no registration exists
-        const registrations = await navigator.serviceWorker.getRegistrations();
-        await Promise.all(registrations.map((reg) => reg.unregister()));
-        await navigator.serviceWorker.register('/zelda-walkthroughs/sw.js');
-        console.log('✅ Service worker re-registered');
-      }
-    }
-
-    // Force reload to get fresh files
-    window.location.reload();
-  } catch (error) {
-    console.error('❌ Error clearing cache:', error);
-    throw error;
+export const clearAllCaches = async (): Promise<void> => {
+  if ('caches' in window) {
+    const cacheNames = await caches.keys();
+    console.log('Clearing caches:', cacheNames);
+    
+    await Promise.all(
+      cacheNames.map(cacheName => caches.delete(cacheName))
+    );
+    
+    console.log('All caches cleared');
   }
 };
 
 /**
- * Checks if the app is running as a PWA (installed)
+ * Force service worker update and reload
  */
-export const isPWA = (): boolean => {
-  return (
-    window.matchMedia('(display-mode: standalone)').matches ||
-    (window.navigator as Navigator & { standalone?: boolean }).standalone ===
-      true ||
-    document.referrer.includes('android-app://')
-  );
+export const forceServiceWorkerUpdate = async (): Promise<void> => {
+  if ('serviceWorker' in navigator) {
+    try {
+      const registration = await navigator.serviceWorker.getRegistration();
+      if (registration) {
+        console.log('Forcing service worker update...');
+        await registration.update();
+        
+        // Send message to service worker to skip waiting
+        if (registration.waiting) {
+          registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+        }
+        
+        // Reload the page after a short delay
+        setTimeout(() => {
+          window.location.reload();
+        }, 100);
+      }
+    } catch (error) {
+      console.error('Failed to update service worker:', error);
+    }
+  }
 };
 
 /**
- * Shows a confirmation dialog before clearing cache
+ * Clear all data and force fresh load
  */
-export const confirmCacheRefresh = (): Promise<boolean> => {
-  return new Promise((resolve) => {
-    const confirmed = window.confirm(
-      'This will refresh the app and download the latest version. Your progress and settings will be preserved. Continue?',
-    );
-    resolve(confirmed);
-  });
+export const forceFreshLoad = async (): Promise<void> => {
+  console.log('Forcing fresh load...');
+  
+  // Clear all caches
+  await clearAllCaches();
+  
+  // Force service worker update
+  await forceServiceWorkerUpdate();
+  
+  // Clear localStorage and sessionStorage
+  localStorage.clear();
+  sessionStorage.clear();
+  
+  // Reload the page
+  window.location.reload();
+};
+
+/**
+ * Check if service worker is available and registered
+ */
+export const isServiceWorkerSupported = (): boolean => {
+  return 'serviceWorker' in navigator;
+};
+
+/**
+ * Get service worker registration info
+ */
+export const getServiceWorkerInfo = async () => {
+  if (!isServiceWorkerSupported()) {
+    return null;
+  }
+  
+  try {
+    const registration = await navigator.serviceWorker.getRegistration();
+    return {
+      registered: !!registration,
+      scope: registration?.scope,
+      state: registration?.active?.state,
+    };
+  } catch (error) {
+    console.error('Failed to get service worker info:', error);
+    return null;
+  }
 };

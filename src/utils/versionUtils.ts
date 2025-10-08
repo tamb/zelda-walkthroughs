@@ -8,7 +8,7 @@
  */
 export const getAppVersion = (): string => {
   // This will be replaced by the build process
-  return '1.0.0';
+  return '1.0.0-alpha.2';
 };
 
 /**

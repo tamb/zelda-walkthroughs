@@ -35,8 +35,10 @@ self.addEventListener('install', (event) => {
       });
     }),
   );
-  // Skip waiting to activate immediately
-  self.skipWaiting();
+  // Only skip waiting in production
+  if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+    self.skipWaiting();
+  }
 });
 
 // Fetch event - serve from cache when offline

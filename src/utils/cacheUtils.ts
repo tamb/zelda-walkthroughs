@@ -32,7 +32,7 @@ export const clearAppCache = async (): Promise<void> => {
         // Fallback: unregister and re-register if no registration exists
         const registrations = await navigator.serviceWorker.getRegistrations();
         await Promise.all(registrations.map((reg) => reg.unregister()));
-        await navigator.serviceWorker.register('/zelda-walkthroughs/sw.js');
+        await navigator.serviceWorker.register('sw.js');
         console.log('✅ Service worker re-registered');
       }
     }

@@ -6,12 +6,11 @@ import {
   confirmCacheRefresh,
   isPWA,
 } from '../../utils/cacheUtils';
-import { getVersionInfo } from '../../utils/versionUtils';
+import { version } from '../../../package.json';
 
 export const Navbar = () => {
   const navbarId = useId();
   const [isRefreshing, setIsRefreshing] = useState(false);
-  const versionInfo = getVersionInfo();
 
   const handleRefresh = async () => {
     try {
@@ -32,7 +31,7 @@ export const Navbar = () => {
       <Container>
         <BSNavbar.Brand as={Link} to="/" className="triforce-accent">
           Zelda Walkthroughs
-          <small className="text-muted ms-1">{versionInfo.display}</small>
+          <small className="text-muted ms-1">{version}</small>
         </BSNavbar.Brand>
         <BSNavbar.Toggle aria-controls={navbarId} />
         <BSNavbar.Collapse id={navbarId}>

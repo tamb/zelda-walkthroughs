@@ -4,6 +4,7 @@ import './App.css';
 import { Navbar } from './components/Navbar';
 import { GamePage } from './pages/GamePage';
 import { HomePage } from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
 import InstallPrompt from './components/InstallPrompt';
 import { setupChunkErrorHandling } from './utils/chunkErrorHandler';
 
@@ -18,6 +19,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/game/:gameSlug" element={<GamePage />} />
       </Routes>
       <InstallPrompt />

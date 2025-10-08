@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom';
 import { Container, Navbar as BSNavbar, Nav, Button } from 'react-bootstrap';
 import {
   forceFreshLoad,
-  getServiceWorkerInfo,
 } from '../../utils/cacheUtils';
-import { getVersionInfo } from '../../utils/versionUtils';
+import { version } from '../../../package.json';
 
 export const Navbar = () => {
   const navbarId = useId();
@@ -34,7 +33,7 @@ export const Navbar = () => {
           <div className="d-flex flex-column">
             <span className="triforce-accent">Zelda Walkthroughs</span>
             <small className="fs-6">
-              {getVersionInfo().display}
+              {version}
             </small>
           </div>
         </BSNavbar.Brand>
@@ -44,8 +43,9 @@ export const Navbar = () => {
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
-            <Nav.Link href="#games">Games</Nav.Link>
-            <Nav.Link href="#guides">Guides</Nav.Link>
+            <Nav.Link as={Link} to="/about">
+              About
+            </Nav.Link>
             <Nav.Item className="d-flex align-items-center">
               <Button
                 variant="outline-warning"
